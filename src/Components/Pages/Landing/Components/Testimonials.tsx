@@ -1,0 +1,21 @@
+import Testimonial from "./Testimonial";
+
+const Testimonials = () => {
+  return (
+    <>
+      <div className="relative mt-5 h-auto py-10 max-sm:py-5 ">
+        <h1 className="text-center  text-5xl max-sm:text-2xl font-bold">
+          Mothers' Testimonials
+        </h1>
+        <div className="relative grid grid-cols-3 max-sm:grid-cols-1 gap-3 mt-5 px-20 max-sm:px-0">
+          {[1, 2, 3, ].map((_, i) => (
+            <Testimonial key={i}/>
+          ))}
+        </div>
+   
+      </div>
+    </>
+  );
+};
+
+export default Testimonials;
