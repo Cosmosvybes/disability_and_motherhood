@@ -1,7 +1,7 @@
 const Testimonial = ({ image }: { image: any }) => {
   return (
     <>
-      <div className="relative flex  justify-end   h-80 w-full">
+      <div className="relative flex  justify-end border   h-96 w-full">
         <div className="absolute -z-10 bg-gray-50 rounded-full bottom-0 right-10  max-sm:right-5 h-72 w-72 max-sm:w-1/2">
           {" "}
           <div
@@ -13,8 +13,8 @@ const Testimonial = ({ image }: { image: any }) => {
             }}
           ></div>
         </div>
-        <div className="absolute bg-gray-300   border-gray-300  px-2 rounded-3xl left-4 bottom-0 h-52 w-96 max-sm:w-stretch z-20">
-          <div className="absolute bg-gray-100 border-gray-100 flex flex-col justify-center items-center  px-5 rounded-3xl left-6 bottom-4 h-52 py-10 w-96 max-sm:w-full z-20">
+        <div className="absolute bg-gray-300   border-gray-300  px-2 rounded-3xl left-4 bottom-0 h-52 w-96 max-sm:w-stretch z-10">
+          <div className="absolute bg-gray-100 border-gray-100 flex flex-col justify-center items-center  px-5 rounded-3xl left-6 bottom-4 h-52 py-10 w-96 max-sm:w-full z-10">
             <p className="max-sm:text-sm text-sm">
               {" "}
               I cannot express enough how much the disability and motherhood

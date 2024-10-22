@@ -51,7 +51,7 @@ const SupportSection = () => {
           ))}
         </Swiper>
 
-        <div className="relative h-20 flex flex-col mt-3 z-10 border">
+        <div className="relative h-20 flex flex-col mt-3">
           <div className="relative h-1/2 flex px-2 justify-between border-none items-center py-4 bg-gradient-to-r from-gray-50 to-black">
             <h1 className="text-black text-sm">
               Help us make a difference !!!
