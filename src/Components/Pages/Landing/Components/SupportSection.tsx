@@ -17,10 +17,27 @@ const SupportSection = () => {
           <ArrowRight className="text-4xl max-sm:2xl" />{" "}
         </div>
 
+       
+
+        <div className="relative flex justify-start ">
+          <div className="relative h-auto w-96 max-sm:w-full  border-8 border-gray-100 rounded-xl">
+            <div className="relative h-auto w-auto  border-8 rounded-sm ">
+              <div
+                className="relative   flex h-80   "
+                style={{
+                  backgroundImage: `url(${image})`,
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                }}
+              ></div>
+            </div>
+          </div>
+        </div>
+
         <Swiper
           slidesPerView={2}
           centeredSlides={false}
-          spaceBetween={4}
+          spaceBetween={2}
           pagination={{
             clickable: true,
           }}
@@ -34,23 +51,8 @@ const SupportSection = () => {
           ))}
         </Swiper>
 
-        <div className="relative flex justify-start ">
-          <div className="relative h-auto w-96 max-sm:w-full  border-8 border-gray-100 rounded-xl">
-            <div className="relative h-auto w-auto  border-8 rounded-sm ">
-              <div
-                className="relative   flex h-80 justify-around  border "
-                style={{
-                  backgroundImage: `url(${image})`,
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                }}
-              ></div>
-            </div>
-          </div>
-        </div>
-
         <div className="relative h-20 flex flex-col mt-3 z-10 border">
-          {/* <div className="relative h-1/2 flex px-2 justify-between border-none items-center py-4 bg-gradient-to-r from-gray-50 to-black">
+          <div className="relative h-1/2 flex px-2 justify-between border-none items-center py-4 bg-gradient-to-r from-gray-50 to-black">
             <h1 className="text-black text-sm">
               Help us make a difference !!!
             </h1>
@@ -65,7 +67,7 @@ const SupportSection = () => {
             <h1 className="text-white text-sm scro">
               Help us make a difference !!!
             </h1>
-          </div> */}
+          </div>
         </div>
       </div>
     </>
