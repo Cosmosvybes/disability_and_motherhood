@@ -6,6 +6,8 @@ import {
   HealthCare,
   EducationCompass,
 } from "react-huge-icons/solid";
+
+
 const WelcomeSection = () => {
   const [indicatorMenu] = useState([
     {
