@@ -3,26 +3,33 @@ import Footer from "./Components/Footer";
 import SupportSection from "./Components/SupportSection";
 import Testimonials from "./Components/Testimonials";
 import WelcomeSection from "./Components/WelcomeSection";
-
+import image from "../../../assets/pexels-photo-6288104.webp";
 const Landing = () => {
   return (
     <>
-      <div className="relative h-screen max-sm:h-96 max-sm:py-5  py-10">
+      <div
+        className="relative h-screen max-sm:h-96 max-sm:py-5  py-10"
+        style={{
+          backgroundImage: `url(${image})`,
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat", objectFit:"contain"
+        }}
+      >
         <Navbar />
 
-        <div className="relative  mt-5 h-full flex  justify-start items-center max-sm:items-start px-28 max-sm:px-2">
+        <div className="relative  mt-5 h-full flex  justify-start items-center  px-28 max-sm:px-2">
           <div className="relative w-auto gap-4 max-sm:gap-2 flex flex-col">
-            <h1 className="text-8xl font-extrabold max-sm:text-5xl">
+            <h1 className="text-8xl text-gray-50 font-extrabold max-sm:text-5xl">
               Embracing Disabilities,
             </h1>
-            <h1 className="text-8xl font-extrabold max-sm:text-5xl">
+            <h1 className="text-8xl font-extrabold text-gray-50 max-sm:text-5xl">
               Empowering Mothers.
             </h1>
             <div className="relative">
-              <p className="text-2xl max-sm:text-xl font-bold italic mt-2">
+              <p className="text-2xl text-gray-50 max-sm:text-xl font-bold italic mt-2">
                 Supporting mothers with disabilities through
               </p>
-              <p className="text-2xl max-sm:text-xl font-bold italic">
+              <p className="text- text-gray-50 max-sm:text-xl font-bold italic">
                 every steps of the journey.
               </p>
             </div>

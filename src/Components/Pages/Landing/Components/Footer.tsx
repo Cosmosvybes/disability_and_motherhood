@@ -43,10 +43,10 @@ const Footer = () => {
           <h1 className="text-2xl text-white"> Logo</h1>
           {/*  */}
 
-          <div className="relative flex gap-5 justify-around w-1/2 max-sm:w-auto h-auto">
+          <div className="relative flex gap-5 justify-around w-1/2 max-sm:w-auto h-auto ">
             <div className="relative flex flex-col">
-              <h1 className="text-white font-bold"> Find us on social media</h1>
-              <div className="flex items-center  gap-2 justify-start">
+              <h1 className="text-white max-sm:text-sm  font-bold"> Find us on social media</h1>
+              <div className="flex items-center mt-2 gap-2 justify-start">
                 <Linkedln className="text-2xl text-white" />
                 <Twitter className="text-2xl text-white" />
                 <Facebook className="text-2xl text-white" />
@@ -59,21 +59,21 @@ const Footer = () => {
             */}
 
             <div className="relative flex flex-col">
-              <h1 className="text-white font-bold"> Useful links</h1>
-              <div className="flex items-center flex-col justify-start">
-                <p className="text-white">Terms of use.</p>
-                <p className="text-white">Policies</p>
-                <p className="text-white">Others</p>
+              <h1 className="text-white max-sm:text-sm  font-bold"> Useful links</h1>
+              <div className="flex items-start flex-col justify-start">
+                <p className="text-white text-sm">Terms of use.</p>
+                <p className="text-white text-sm">Policies</p>
+                <p className="text-white text-sm">Others</p>
               </div>
             </div>
 
             {/*  */}
             <div className="relative flex flex-col">
-              <h1 className="text-white font-bold"> Community</h1>
-              <div className="flex items-center flex-col justify-start">
-                <p className="text-white">Blog</p>
-                <p className="text-white">Ideas</p>
-                <p className="text-white">Developers</p>
+              <h1 className="text-white text-sm max-sm:text-sm  font-bold"> Community</h1>
+              <div className="flex items-start flex-col justify-start">
+                <p className="text-white text-sm">Blog</p>
+                <p className="text-white text-sm">Ideas</p>
+                <p className="text-white text-sm">Developers</p>
               </div>
             </div>
           </div>

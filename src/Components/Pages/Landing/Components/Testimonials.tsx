@@ -1,5 +1,5 @@
 import Testimonial from "./Testimonial";
-
+import image from "../../../../assets/headeshot.jpg";
 const Testimonials = () => {
   return (
     <>
@@ -8,11 +8,10 @@ const Testimonials = () => {
           Mothers' Testimonials
         </h1>
         <div className="relative grid grid-cols-3 max-sm:grid-cols-1 gap-3 mt-5 px-20 max-sm:px-0">
-          {[1, 2, 3, ].map((_, i) => (
-            <Testimonial key={i}/>
+          {[1, 2, 3].map((_, i) => (
+            <Testimonial image={image} key={i} />
           ))}
         </div>
-   
       </div>
     </>
   );
