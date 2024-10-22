@@ -1,11 +1,11 @@
 const Testimonial = ({ image }: { image: any }) => {
   return (
     <>
-      <div className="relative flex  justify-end border   h-96 w-full">
-        <div className="absolute -z-10 bg-gray-50 rounded-full bottom-0 right-10  max-sm:right-5 h-72 w-72 max-sm:w-1/2">
+      <div className="relative flex  justify-center    h-96 w-full">
+        <div className="absolute -z-10 b rounded-full bottom-0 right-10  max-sm:right-5 h-72 w-72 max-sm:w-1/2">
           {" "}
           <div
-            className="absolute z-20  rounded-full bg-white  h-24 w-24 -top-10 right-16"
+            className="absolute z-20  rounded-full bg-white right-10  h-24 w-24 -top-10"
             style={{
               backgroundImage: `url(${image})`,
               backgroundRepeat: "no-repeat",
@@ -13,9 +13,9 @@ const Testimonial = ({ image }: { image: any }) => {
             }}
           ></div>
         </div>
-        <div className="absolute bg-gray-300   border-gray-300  px-2 rounded-3xl left-4 bottom-0 h-52 w-96 max-sm:w-stretch z-10">
-          <div className="absolute bg-gray-100 border-gray-100 flex flex-col justify-center items-center  px-5 rounded-3xl left-6 bottom-4 h-52 py-10 w-96 max-sm:w-full z-10">
-            <p className="max-sm:text-sm text-sm">
+        <div className="absolute bg-gray-300   border-gray-300  px-2 rounded-3xl left-0 bottom-2 h-auto w-96 max-sm:w-72 z-10">
+          <div className="relative bg-gray-100 border-gray-100 flex flex-col justify-center items-center  px-5 rounded-3xl left-1 bottom-4 h-auto py-10 w-96 max-sm:w-72 z-10">
+            <p className="max-sm:text-sm py text-sm">
               {" "}
               I cannot express enough how much the disability and motherhood
               assistance program has changed my life. As a mother living with a
