@@ -9,7 +9,7 @@ const Indicator = ({
 }) => {
   return (
     <>
-      <div className="relative w-auto h-44 flex px-2 justify-start gap-5 items-center border border-black rounded-bl-3xl rounded-tr-3xl py-5">
+      <div className="relative w-auto h-44 flex px-2 justify-start gap-5 items-center border  rounded-bl-3xl rounded-tr-3xl py-5">
         <div className="relative rounded-full w-20 max-sm:rounded-md  h-20 bg-black flex  items-center justify-center">
           {icon}
         </div>

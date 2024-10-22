@@ -1,33 +1,31 @@
 const Testimonial = ({ image }: { image: any }) => {
   return (
     <>
-      <div className="relative flex  justify-center    h-96 w-full">
-        <div className="absolute -z-10 b rounded-full bottom-0 right-10  max-sm:right-5 h-72 w-72 max-sm:w-1/2">
-          {" "}
+      <div className="relative flex justify-end border shadow-lg shadow-white rounded-xl items-end flex-col h-96 w-full">
+        <div className="absolute  left-0 top-0 h-52 w-1/2 max-sm:w-1/2 max-sm:h-60 ">
           <div
-            className="absolute z-20  rounded-full bg-white right-10  h-24 w-24 -top-10"
+            className="absolute left-5 top-4 h-32 w-32 bg-gray-50 rounded-full"
             style={{
               backgroundImage: `url(${image})`,
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
             }}
-          ></div>
-        </div>
-        <div className="absolute bg-gray-300   border-gray-300  px-2 rounded-3xl left-0 bottom-2 h-auto w-96 max-sm:w-72 z-10">
-          <div className="relative bg-gray-100 border-gray-100 flex flex-col justify-center items-center  px-5 rounded-3xl left-1 bottom-4 h-auto py-10 w-96 max-sm:w-72 z-10">
-            <p className="max-sm:text-sm py text-sm">
-              {" "}
-              I cannot express enough how much the disability and motherhood
-              assistance program has changed my life. As a mother living with a
-              disability, everyday challenges often felt overwhelming. This
-              program has provided me with the support I needed to not only
-              manage my day-to-day tasks but also to truly thrive as a parent.
-            </p>
-            <div className="relative flex justify-end items-end px-2 w-full">
-              {" "}
-              <strong> Sharon Shaw.</strong>
-            </div>
+          >
+            {" "}
           </div>
+        </div>
+        <div className="relative w-full  h-auto  py-3 px-3 ">
+          <p className="max-sm:text-sm  text-sm">
+            {" "}
+            I cannot express enough how much the disability and motherhood
+            assistance program has changed my life. As a mother living with a
+            disability, everyday challenges often felt overwhelming. This
+            program has provided me with the support I needed to not only manage
+            my day-to-day tasks but also to truly thrive as a parent.
+          </p>
+        </div>
+        <div className="relative w-full mt-5 px-5 flex justify-end items-center">
+          <strong>Sarah James.</strong>
         </div>
       </div>
     </>

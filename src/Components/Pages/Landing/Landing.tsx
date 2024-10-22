@@ -12,7 +12,8 @@ const Landing = () => {
         style={{
           backgroundImage: `url(${image})`,
           backgroundSize: "cover",
-          backgroundRepeat: "no-repeat", objectFit:"contain"
+          backgroundRepeat: "no-repeat",
+          objectFit: "contain",
         }}
       >
         <Navbar />
@@ -39,7 +40,6 @@ const Landing = () => {
             </button>
           </div>
         </div>
-
         <WelcomeSection />
         <SupportSection />
         <Testimonials />
