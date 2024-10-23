@@ -35,7 +35,7 @@ const Landing = () => {
               </p>
             </div>
 
-            <button className="w-52 mt-4 font-bold rounded-tl-3xl italic text-white text-2xl rounded-br-3xl roun py-3 px-3 bg-black ">
+            <button className="w-72 mt-4 font-bold rounded-tl-3xl italic text-white text-2xl rounded-br-3xl roun py-5 px-3 hover:bg-gray-800 max-sm:w-52 max-sm:py-3 transition duration-500 bg-black ">
               Learn More
             </button>
           </div>
