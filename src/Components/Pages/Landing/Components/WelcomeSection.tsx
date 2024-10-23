@@ -1,12 +1,9 @@
 import { useState } from "react";
 import Indicator from "../../../Tools/Common/Indicator";
 import {
-  UserCommunity,
   HealthCare,
-  EducationCompass,
   SpringNotes,
   UsersTriple,
-  NextArrow,
   BookInfo,
 } from "react-huge-icons/solid";
 
