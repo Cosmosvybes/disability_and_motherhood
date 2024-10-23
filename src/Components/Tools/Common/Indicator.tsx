@@ -9,14 +9,14 @@ const Indicator = ({
 }) => {
   return (
     <>
-      <div className="relative w-auto h-44 flex px-2 justify-start gap-5 items-center border  rounded-bl-3xl rounded-tr-3xl py-5">
-        <div className="relative rounded-full w-20 max-sm:rounded-md  h-20 bg-black flex  items-center justify-center">
+      <div className="relative w-full h-44 flex px-2 justify-start max-sm:justify-start  gap-5 max-sm:gap-3 items-center border bg-gray-100  rounded-bl-3xl rounded-tr-3xl py-5">
+        <div className="relative rounded-full w-20 max-sm:rounded-full max-sm:w-14 max-sm:h-14  h-20 bg-black flex  items-center justify-center">
           {icon}
         </div>
 
-        <div className="relative block">
+        <div className="relative w-3/4 block">
           <h1 className="font-bold text-2xl">{title}</h1>
-          <p>{description}</p>
+          <p className="max-sm:text-sm">{description}</p>
         </div>
       </div>
     </>

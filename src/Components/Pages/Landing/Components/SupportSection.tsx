@@ -6,6 +6,8 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import { ArrowRight } from "react-huge-icons/solid";
 import cardImage from "../../../../assets/wheelchair.webp";
+
+
 const SupportSection = () => {
   return (
     <>

@@ -12,28 +12,28 @@ const WelcomeSection = () => {
   const [indicatorMenu] = useState([
     {
       id: 1,
-      icon: <EducationCompass className="text-4xl text-white" />,
+      icon: <EducationCompass className="text-4xl max-sm:text-2xl text-white" />,
       title: "Education",
       description:
         "Learn about the eductaion for the disabilities and every other information needed.",
     },
     {
       id: 2,
-      icon: <DigitalHealth className="text-4xl text-white" />,
+      icon: <DigitalHealth className="text-4xl max-sm:text-2xl text-white" />,
       title: "Digital Healthh",
       description:
         "Learn about the eductaion for the disabilities and every other information needed.",
     },
     {
       id: 3,
-      icon: <UserCommunity className="text-4xl text-white" />,
+      icon: <UserCommunity className="text-4xl max-sm:text-2xl text-white" />,
       title: "Community",
       description:
         "Learn about the eductaion for the disabilities and every other information needed.",
     },
     {
       id: 4,
-      icon: <HealthCare className="text-4xl text-white" />,
+      icon: <HealthCare className="text-4xl max-sm:text-2xl text-white" />,
       title: "Support",
       description:
         "Learn about the eductaion for the disabilities and every other information needed.",

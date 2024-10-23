@@ -8,7 +8,7 @@ const Landing = () => {
   return (
     <>
       <div
-        className="relative h-screen max-sm:h-96 max-sm:py-5  py-10"
+        className="relative h-screen max-sm:h-96 object-fill   max-sm:py-5  py-10"
         style={{
           backgroundImage: `url(${image})`,
           backgroundSize: "cover",
@@ -30,18 +30,19 @@ const Landing = () => {
               <p className="text-2xl text-gray-50 max-sm:text-xl font-bold italic mt-2">
                 Supporting mothers with disabilities through
               </p>
-              <p className="text- text-gray-50 max-sm:text-xl font-bold italic">
+              <p className="text-2xl text-gray-50 max-sm:text-xl font-bold italic">
                 every steps of the journey.
               </p>
             </div>
 
-            <button className="w-52 mt-2 font-bold rounded-tl-3xl italic text-white text-2xl rounded-br-3xl roun py-3 px-3 bg-black ">
+            <button className="w-52 mt-4 font-bold rounded-tl-3xl italic text-white text-2xl rounded-br-3xl roun py-3 px-3 bg-black ">
               Learn More
             </button>
           </div>
         </div>
         <WelcomeSection />
         <SupportSection />
+
         <Testimonials />
         <Footer />
       </div>
