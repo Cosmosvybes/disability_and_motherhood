@@ -89,7 +89,7 @@ const Footer = () => {
         </div>
 
         <p className=" text-white">
-          Mum ability &copy; {new Date().getFullYear()}{" "}
+          Mum ability &copy; • {new Date().getFullYear()}{" "}
         </p>
       </div>
     </>
