@@ -87,6 +87,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
+
+        <p className=" text-white">
+          Mum ability &copy; {new Date().getFullYear()}{" "}
+        </p>
       </div>
     </>
   );
