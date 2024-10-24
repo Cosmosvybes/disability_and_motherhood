@@ -4,6 +4,8 @@ import SupportSection from "./Components/SupportSection";
 import Testimonials from "./Components/Testimonials";
 import WelcomeSection from "./Components/WelcomeSection";
 import image from "../../../assets/pexels-photo-6288104.webp";
+import Extras from "./Components/Extras";
+
 const Landing = () => {
   return (
     <>
@@ -41,8 +43,8 @@ const Landing = () => {
           </div>
         </div>
         <WelcomeSection />
+        <Extras/>
         <SupportSection />
-
         <Testimonials />
         <Footer />
       </div>

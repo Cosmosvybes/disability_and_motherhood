@@ -23,7 +23,7 @@ const SupportSection = () => {
           centeredSlides={false}
           grabCursor={true}
           spaceBetween={0}
-          speed={600}
+          speed={800}
           parallax={true}
           pagination={{
             clickable: true,

@@ -16,7 +16,7 @@ const Indicator = ({
 
         <div className="relative w-3/4 block">
           <h1 className="font-bold text-2xl">{title}</h1>
-          <p className="max-sm:text-sm">{description}</p>
+          <p className="max-sm:text-sm text-gray-700">{description}</p>
         </div>
       </div>
     </>

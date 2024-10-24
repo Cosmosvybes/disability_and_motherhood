@@ -46,7 +46,8 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-        <div className="relative w-14 h-14  rounded-full max-sm:flex bg-white  hidden justify-center items-center">
+        <div className="relative  max-sm:block hidden rounded-full antialiased animate-pulse  border-4">
+        <div className="relative w-14 h-14  duration-1000   rounded-full max-sm:flex bg-gray-100  hidden justify-center items-center">
           <RemoveCircle
             className="text-4xl transition duration-500 text-black"
             onClick={() => setToggle(!toggle)}
@@ -59,7 +60,7 @@ const Navbar = () => {
           />
 
           <MenuLineHorizontal
-            className="text-4xl text-black"
+            className="text-4xl text-black "
             onClick={() => setToggle(!toggle)}
             style={{
               zIndex: toggle ? "2" : "1",
@@ -68,6 +69,8 @@ const Navbar = () => {
             }}
           />
         </div>
+        </div>
+        
       </div>
     </>
   );

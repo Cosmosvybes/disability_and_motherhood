@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <>
       <div className="relative h-24 bg-gray-50 mt-2"></div>
-      <div className="relative py-10 px-20 max-sm:px-2 max-sm:py-5 bg-black flex flex-col">
+      <div className="relative py-10 px-20 max-sm:px-2 gap-5 max-sm:py-5 bg-black flex flex-col">
         <div className="relative flex justify-between max-sm:flex-col gap-2">
           <div className="relative flex flex-col justify-normal">
             <h1 className="font-extrabold text-white text-2xl">
