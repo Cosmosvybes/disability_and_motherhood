@@ -43,7 +43,7 @@ const Landing = () => {
           </div>
         </div>
         <WelcomeSection />
-        <Extras/>
+        <Extras />
         <SupportSection />
         <Testimonials />
         <Footer />
