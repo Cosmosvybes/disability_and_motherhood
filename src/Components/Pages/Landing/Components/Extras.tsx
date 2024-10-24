@@ -14,7 +14,7 @@ const Extras = () => {
         
         </div>
         <div className="relatives px-5  h-96 max-sm:h-auto w-full justify-between items-center  flex bg-black rounded-none max-sm:rounded-br-xl max-sm:rounded-bl-xl  ">
-          <h1 className="text-center text-gray-50  max-sm:text-7xl text-8xl font-extrabold">
+          <h1 className="text-center text-gray-50  max-sm:text-6xl max-sm:py-2 text-8xl font-extrabold">
             Every mother deserve{" "}
             <h1 className="text-gray-300 inline">better support. </h1>
           </h1>
