@@ -51,7 +51,7 @@ const WelcomeSection = () => {
     <>
       <div className="relative max-sm:mt-10  flex justify-center   py-2 items-center h-auto flex-col">
         <div className="relative w-1/2 py-2 max-sm:w-full max-sm:px-5">
-          <h1 className="text-center text-black  max-sm:text-6xl max-sm:py-2 text-8xl font-extrabold">
+          <h1 className="text-center text-black  max-sm:text-5xl max-sm:py-2 text-8xl font-extrabold">
             Get familiar with #mumAbility.
           </h1>
 
