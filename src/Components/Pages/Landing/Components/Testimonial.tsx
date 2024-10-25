@@ -1,10 +1,12 @@
+import { Reward } from "react-huge-icons/solid";
+
 const Testimonial = ({ image }: { image: any }) => {
   return (
     <>
-      <div className="relative flex transition duration-500 justify-end bg-gray-100 border gap-2 shadow-lg shadow-white rounded-xl items-end flex-col h-96 w-full">
-        <div className="absolute  left-0 top-0 h-52 w-1/2 max-sm:w-1/2 max-sm:h-60 ">
+      <div className="relative flex transition duration-500  bg-gray-100 border gap-2 shadow-lg shadow-white rounded-xl justify-start  flex-col h-96 max-sm:h-auto w-full">
+        <div className=" w-1/2 max-sm:w-1/2 max-sm:h-auto   flex justify-normal  py-5 px-5 ">
           <div
-            className="absolute left-5 top-4 h-32 w-32 bg-gray-50 rounded-full"
+            className="h-32 relative w-32 bg-gray-50 rounded-full"
             style={{
               backgroundImage: `url(${image})`,
               backgroundRepeat: "no-repeat",
@@ -12,9 +14,10 @@ const Testimonial = ({ image }: { image: any }) => {
             }}
           >
             {" "}
+            <Reward className="text-2xl absolute bottom-0 -right-5 text-yellow-600 " />{" "}
           </div>
         </div>
-        <div className="relative w-full  h-auto  py-5 mt-7 px-3 ">
+        <div className="relative w-full  h-auto  py-5 mt-3 px-3 ">
           <p className="max-sm:text-sm  text-sm antialiased text-gray-700">
             {" "}
             I cannot express enough how much the disability and motherhood
@@ -25,7 +28,7 @@ const Testimonial = ({ image }: { image: any }) => {
           </p>
         </div>
         <div className="relative w-full  px-5 py-5 flex justify-end items-center">
-          <strong className="italic">Sarah James.</strong>
+          <strong className="italic">  — Sarah James.</strong>
         </div>
       </div>
     </>

@@ -3,7 +3,7 @@ import image from "../../../../assets/headeshot.jpg";
 const Testimonials = () => {
   return (
     <>
-      <div className="relative h-auto py-10  max-sm:py-5 ">
+      <div className="relative h-auto py-5  max-sm:py-5 ">
         <h1 className="text-center   text-5xl max-sm:text-2xl font-bold">
           Team & Contributors
         </h1>

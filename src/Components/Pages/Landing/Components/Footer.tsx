@@ -43,7 +43,7 @@ const Footer = () => {
           <h1 className="text-2xl text-white"> Logo</h1>
           {/*  */}
 
-          <div className="relative flex gap-5 justify-around w-1/2 max-sm:w-auto h-auto ">
+          <div className="relative max-sm:flex-col px-5  flex gap-5 justify-around w-1/2 max-sm:w-auto h-auto ">
             <div className="relative flex flex-col">
               <h1 className="text-white max-sm:text-sm  font-bold">
                 {" "}

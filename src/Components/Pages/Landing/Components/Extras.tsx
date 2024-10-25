@@ -4,7 +4,7 @@ const Extras = () => {
     <>
       <div className="relative flex justify-between items-center max-sm:flex-col shadow shadow-white  py-5  h-auto px-20 max-sm:px-2 ">
         <div
-          className="relative h-96  w-1/3 max-sm:w-full rounded-tl-xl rounded-bl-xl max-sm:rounded-tr-xl max-sm:rounded-tl-xl max-sm:rounded-bl-none  flex justify-start items-center "
+          className="relative h-96  w-1/3 max-sm:w-full rounded-tl-xl rounded-bl-xl max-sm:rounded-tr-xl max-sm:rounded-tl-xl max-sm:rounded-bl-none  max-sm:object-contain flex justify-start items-center "
           style={{
             backgroundImage: `url(${image})`,
             backgroundRepeat: "no-repeat",
