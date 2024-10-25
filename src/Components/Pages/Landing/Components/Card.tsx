@@ -3,7 +3,7 @@ import { Location } from "react-huge-icons/solid";
 const Card = ({ image }: { image: any }) => {
   return (
     <>
-      <div className="relative gap-5 bg-gray-100 h-auto w-full px-2 max-sm:px-1 py-2 mt-4 flex justify-start flex-col rounded-0 ">
+      <div className="relative gap-5 max-sm:gap-2 bg-gray-100 h-auto w-full px-2 max-sm:px-1 py-2 mt-4 flex justify-start flex-col rounded-0 ">
         <div
           className="relative w-full flex justify-start max-sm:object-contain  rounded-xl h-96 max-sm:h-44"
           style={{

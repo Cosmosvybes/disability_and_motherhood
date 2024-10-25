@@ -3,7 +3,7 @@ import { Reward } from "react-huge-icons/solid";
 const Testimonial = ({ image }: { image: any }) => {
   return (
     <>
-      <div className="relative flex transition duration-500  bg-gray-100 border gap-2 shadow-lg shadow-white rounded-xl justify-start  flex-col h-96 max-sm:h-auto w-full">
+      <div className="relative flex transition duration-500  gap-5  bg-gray-100 border max-sm:gap-2 shadow-lg shadow-white rounded-xl justify-start  flex-col h-auto max-sm:h-auto w-full">
         <div className=" w-1/2 max-sm:w-1/2 max-sm:h-auto   flex justify-normal  py-5 px-5 ">
           <div
             className="h-32 relative w-32 bg-gray-50 rounded-full"
