@@ -5,7 +5,7 @@ const Card = ({ image }: { image: any }) => {
     <>
       <div className="relative gap-5 bg-gray-100 h-auto w-full px-2 max-sm:px-1 py-2 mt-4 flex justify-start flex-col rounded-0 ">
         <div
-          className="relative w-full flex justify-start max-sm:object-contain  rounded-xl h-96 max-sm:h-52"
+          className="relative w-full flex justify-start max-sm:object-contain  rounded-xl h-96 max-sm:h-44"
           style={{
             backgroundImage: `url(${image})`,
             backgroundRepeat: "no-repeat",
