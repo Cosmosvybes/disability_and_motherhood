@@ -32,7 +32,7 @@ const SupportSection = () => {
           className="mySwiper h-auto "
         >
           {[1, 2, 3, 5, 5, 4, 5, 6].map((_, i) => (
-            <SwiperSlide key={i} className="py-4">
+            <SwiperSlide key={i} className="py-4 max-sm:py-2">
               <Card image={cardImage} />
             </SwiperSlide>
           ))}
