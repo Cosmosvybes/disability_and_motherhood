@@ -1,10 +1,4 @@
-import {
-  ArrowRight,
-  Facebook,
-  Instagram,
-  Linkedln,
-  Twitter,
-} from "react-huge-icons/solid";
+import { ArrowRight, Linkedln, Twitter } from "react-huge-icons/solid";
 
 const Footer = () => {
   return (
@@ -50,10 +44,20 @@ const Footer = () => {
                 Find us on social media
               </h1>
               <div className="flex items-center mt-2 gap-2 justify-start">
-                <Linkedln className="text-2xl text-white" />
-                <Twitter className="text-2xl text-white" />
-                <Facebook className="text-2xl text-white" />
-                <Instagram className="text-2xl text-white" />
+                <Linkedln
+                  className="text-2xl text-white"
+                  onClick={() =>
+                    window.open(
+                      "https://www.linkedin.com/company/disability-and-motherhood/"
+                    )
+                  }
+                />
+                <Twitter
+                  className="text-2xl text-white"
+                  onClick={() =>
+                    window.open("https://www.x.com/dismotherhood/")
+                  }
+                />
               </div>
             </div>
 
@@ -67,7 +71,9 @@ const Footer = () => {
                 Useful links
               </h1>
               <div className="flex items-start flex-col justify-start">
-                <p className="text-white text-xl max-sm:text-sm">Terms of use.</p>
+                <p className="text-white text-xl max-sm:text-sm">
+                  Terms of use.
+                </p>
                 <p className="text-white text-xl max-sm:text-sm">Policies</p>
                 <p className="text-white text-xl max-sm:text-sm">Others</p>
               </div>

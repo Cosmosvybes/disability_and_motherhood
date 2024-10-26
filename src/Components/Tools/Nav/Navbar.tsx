@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menu] = useState([
-    { id: 1, title: "Home" },
-    { id: 2, title: "About Us" },
-    { id: 5, title: "Resources" },
-    { id: 3, title: "Contact Us" },
+    { id: 1, title: "About the project" },
+    { id: 2, title: "Meet the Principal Investigator" },
+    { id: 5, title: "Field and Research Updates" },
+    { id: 3, title: "Support the Project" },
   ]);
   const [toggle, setToggle] = useState(false);
   return (
@@ -47,30 +47,29 @@ const Navbar = () => {
           ))}
         </div>
         <div className="relative  max-sm:block hidden rounded-full antialiased animate-pulse  border-4">
-        <div className="relative w-14 h-14  duration-1000   rounded-full max-sm:flex bg-gray-100  hidden justify-center items-center">
-          <RemoveCircle
-            className="text-4xl transition duration-500 text-black"
-            onClick={() => setToggle(!toggle)}
-            style={{
-              zIndex: toggle ? "2" : "1",
-              opacity: toggle ? "1" : "0",
-              transition: "1s ease-out",
-              display: toggle ? "block" : "none",
-            }}
-          />
+          <div className="relative w-14 h-14  duration-1000   rounded-full max-sm:flex bg-gray-100  hidden justify-center items-center">
+            <RemoveCircle
+              className="text-4xl transition duration-500 text-black"
+              onClick={() => setToggle(!toggle)}
+              style={{
+                zIndex: toggle ? "2" : "1",
+                opacity: toggle ? "1" : "0",
+                transition: "1s ease-out",
+                display: toggle ? "block" : "none",
+              }}
+            />
 
-          <MenuLineHorizontal
-            className="text-4xl text-black "
-            onClick={() => setToggle(!toggle)}
-            style={{
-              zIndex: toggle ? "2" : "1",
-              transition: "1s ease-out",
-              display: !toggle ? "block" : "none",
-            }}
-          />
+            <MenuLineHorizontal
+              className="text-4xl text-black "
+              onClick={() => setToggle(!toggle)}
+              style={{
+                zIndex: toggle ? "2" : "1",
+                transition: "1s ease-out",
+                display: !toggle ? "block" : "none",
+              }}
+            />
+          </div>
         </div>
-        </div>
-        
       </div>
     </>
   );

@@ -6,6 +6,7 @@ import WelcomeSection from "./Components/WelcomeSection";
 import image from "../../../assets/pexels-photo-6288104.webp";
 import Extras from "./Components/Extras";
 import ButtomExtras from "./Components/ButtomExtras";
+import MeetPrincipal from "./Components/MeetPrincipal";
 
 const Landing = () => {
   return (
@@ -47,6 +48,7 @@ const Landing = () => {
         <Extras />
         <SupportSection />
         <ButtomExtras />
+        <MeetPrincipal />
         <Testimonials />
         <Footer />
       </div>
