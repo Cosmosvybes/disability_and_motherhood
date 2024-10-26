@@ -10,7 +10,7 @@ import cardImage from "../../../../assets/wheelchair.webp";
 const SupportSection = () => {
   return (
     <>
-      <div className="relative px-20 py-10 max-sm:px-2 max-sm:py-5 h-auto">
+      <div className="relative px-20  py-10 max-sm:px-2 max-sm:py-5 h-auto">
         <div className="relative flex justify-between items-center">
           <h1 className="text-left text-5xl max-sm:text-xl font-bold">
             Support Mothers with Disabilities in Need.
@@ -32,7 +32,7 @@ const SupportSection = () => {
           className="mySwiper h-auto "
         >
           {[1, 2, 3, 5, 5, 4, 5, 6].map((_, i) => (
-            <SwiperSlide key={i} className="py-3">
+            <SwiperSlide key={i} className="py-4">
               <Card image={cardImage} />
             </SwiperSlide>
           ))}

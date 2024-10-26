@@ -37,15 +37,15 @@ const Footer = () => {
             </button>
           </div>
         </div>
-        <hr className="borde-t border-gray-400 mt-2" />
+        <hr className="border-t border-gray-400 mt-2" />
 
-        <div className="relative flex py-5 justify-between mt-2">
+        <div className="relative max-sm:px-0 flex py-5 justify-between max-sm:flex-row-reverse mt-2">
           <h1 className="text-2xl text-white"> Logo</h1>
           {/*  */}
 
-          <div className="relative max-sm:flex-col px-5  flex gap-5 max-sm:gap-3 justify-around w-1/2 max-sm:w-auto h-auto ">
+          <div className="relative max-sm:flex-col px-5 max-sm:px-1  flex gap-5 max-sm:gap-3 justify-around w-1/2 max-sm:w-auto h-auto ">
             <div className="relative flex flex-col">
-              <h1 className="text-white max-sm:text-sm  font-bold">
+              <h1 className="text-white text-xl max-sm:text-sm font-bold">
                 {" "}
                 Find us on social media
               </h1>
@@ -62,33 +62,33 @@ const Footer = () => {
             */}
 
             <div className="relative flex flex-col">
-              <h1 className="text-white max-sm:text-sm  font-bold">
+              <h1 className="text-white text-xl max-sm:text-sm font-bold">
                 {" "}
                 Useful links
               </h1>
               <div className="flex items-start flex-col justify-start">
-                <p className="text-white text-sm">Terms of use.</p>
-                <p className="text-white text-sm">Policies</p>
-                <p className="text-white text-sm">Others</p>
+                <p className="text-white text-xl max-sm:text-sm">Terms of use.</p>
+                <p className="text-white text-xl max-sm:text-sm">Policies</p>
+                <p className="text-white text-xl max-sm:text-sm">Others</p>
               </div>
             </div>
 
             {/*  */}
             <div className="relative flex flex-col">
-              <h1 className="text-white text-sm max-sm:text-sm  font-bold">
+              <h1 className="text-white text-xl max-sm:text-sm font-bold">
                 {" "}
                 Community
               </h1>
               <div className="flex items-start flex-col justify-start">
-                <p className="text-white text-sm">Blog</p>
-                <p className="text-white text-sm">Ideas</p>
-                <p className="text-white text-sm">Developers</p>
+                <p className="text-white text-xl max-sm:text-sm">Blog</p>
+                <p className="text-white text-xl max-sm:text-sm">Ideas</p>
+                <p className="text-white text-xl max-sm:text-sm">Developers</p>
               </div>
             </div>
           </div>
         </div>
 
-        <p className=" text-white">
+        <p className=" text-white text-2xl max-sm:text-xl max-sm:px-1">
           Mum ability &copy; • {new Date().getFullYear()}{" "}
         </p>
       </div>

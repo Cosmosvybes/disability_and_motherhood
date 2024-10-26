@@ -5,6 +5,7 @@ import Testimonials from "./Components/Testimonials";
 import WelcomeSection from "./Components/WelcomeSection";
 import image from "../../../assets/pexels-photo-6288104.webp";
 import Extras from "./Components/Extras";
+import ButtomExtras from "./Components/ButtomExtras";
 
 const Landing = () => {
   return (
@@ -45,6 +46,7 @@ const Landing = () => {
         <WelcomeSection />
         <Extras />
         <SupportSection />
+        <ButtomExtras />
         <Testimonials />
         <Footer />
       </div>
