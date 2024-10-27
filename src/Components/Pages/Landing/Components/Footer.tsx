@@ -1,4 +1,4 @@
-import { ArrowRight, Linkedln, Twitter } from "react-huge-icons/solid";
+import { ArrowRight, Linkedln, Mail, Twitter } from "react-huge-icons/solid";
 
 const Footer = () => {
   return (
@@ -58,6 +58,7 @@ const Footer = () => {
                     window.open("https://www.x.com/dismotherhood/")
                   }
                 />
+                <Mail className="text-2xl text-white" />
               </div>
             </div>
 
@@ -94,8 +95,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <p className=" text-white text-2xl max-sm:text-xl max-sm:px-1">
-          Mum ability &copy; • {new Date().getFullYear()}{" "}
+        <p className=" text-white text-2xl max-sm:text-sm max-sm:px-1">
+          Disability and Motherhood &copy; • {new Date().getFullYear()}{" "}
         </p>
       </div>
     </>

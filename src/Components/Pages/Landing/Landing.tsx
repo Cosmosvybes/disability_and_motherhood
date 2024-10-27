@@ -31,7 +31,7 @@ const Landing = () => {
           onClick={handleScrollToTop}
           className="fixed bottom-10 z-20 right-0 w-auto h-44 flex flex-col-reverse gap-5 rounded-tl-xl rounded-bl-xl justify-center items-center bg-black"
         >
-          <p className="text-white -rotate-90 font-bold">To-top</p>{" "}
+          <p className="text-white -rotate-90 font-bold">TO-TOP</p>{" "}
           <ArrowDropUp className="inline text-white text-2xl" />
         </button>
         <div className="relative  mt-5 h-full flex  justify-start items-center  px-28 max-sm:px-2">
