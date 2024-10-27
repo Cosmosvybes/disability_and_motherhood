@@ -1,4 +1,4 @@
-import image from "../../../../assets/pexels-photo-4474036.webp";
+import image from "../../../../assets/pexels-photo-6393377.webp";
 const Extras = () => {
   return (
     <>
