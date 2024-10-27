@@ -16,13 +16,7 @@ const Testimonials = () => {
       statement:
         "Empowering Mothers, Enabling Change: Conducting research and collecting data to amplify the voices of mothers with disabilities, promoting inclusive support and social transformation.",
     },
-    {
-      id: 3,
-      image: member3,
-      role: "Data collector",
-      statement:
-        "Unlocking Opportunities for Mothers with Disabilities: Through rigorous research and data collection, we strive to break down barriers and foster a more equitable society for mothers and families.",
-    },
+
     {
       id: 5,
       image: member4,
@@ -50,6 +44,13 @@ const Testimonials = () => {
       role: "Research assistant",
       statement:
         "Building a More Inclusive Future for Families: Through research, data analysis, and community engagement, we aim to dismantle systemic barriers facing mothers with disabilities.",
+    },
+    {
+      id: 3,
+      image: member3,
+      role: "Data collector",
+      statement:
+        "Unlocking Opportunities for Mothers with Disabilities: Through rigorous research and data collection, we strive to break down barriers and foster a more equitable society for mothers and families.",
     },
   ]);
   return (

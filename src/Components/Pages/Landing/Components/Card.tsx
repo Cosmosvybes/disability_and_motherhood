@@ -16,7 +16,7 @@ const Card = ({ image }: { image: any }) => {
         <h1 className="text-2xl max-sm:text-sm px-2 font-bold">
           Help Charlotte Family
         </h1>
-        <div className="relative w-4/5 max-sm:w-full bg-gray-50 rounded-xl px-5 py-5 h-auto">
+        <div className="relative w-4/5 max-sm:w-full bg-gray-50 rounded-xl px-5 max-sm:px-1 py-2 h-auto">
           <p className="text-black text-xl max-sm:text-sm">
             Raising their children from medical expenses to daily living
             support. Your donation helps the disbale to thrive. This program has

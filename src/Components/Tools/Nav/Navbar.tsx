@@ -13,6 +13,7 @@ const Navbar = () => {
   return (
     <>
       <div className="relative flex px-20 max-sm:px-2 justify-between items-center">
+      
         <div
           className="absolute bg-gray-50 flex justify-center items-center flex-col  transition duration-500  left-0 w-full"
           style={{
@@ -35,6 +36,7 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
+
         </div>
         <h1 className="text-2xl font-bold text-white">Logo </h1>
 
