@@ -1,16 +1,56 @@
 import Testimonial from "./Testimonial";
 import member1 from "../../../../assets/member1.jpg";
 import member2 from "../../../../assets/member2.jpg";
-
+import member3 from "../../../../assets/member3.jpg";
+import member4 from "../../../../assets/member4.jpg";
+import member5 from "../../../../assets/member54.jpg";
+import member6 from "../../../../assets/member5.jpg";
 import { useState } from "react";
+
 const Testimonials = () => {
   const [team] = useState([
-    { id: 1, image: member1, role: "Project manager" },
-    { id: 2, image: member2, role: "Data collector" },
-    { id: 3, image: member1, role: "PRO" },
-    { id: 5, image: member2, role: "Research assistant" },
-    { id: 5, image: member2, role: "Research assistant" },
-    { id: 5, image: member2, role: "Research assistant" },
+    {
+      id: 1,
+      image: member1,
+      role: "Research assistant",
+      statement:
+        "Empowering Mothers, Enabling Change: Conducting research and collecting data to amplify the voices of mothers with disabilities, promoting inclusive support and social transformation.",
+    },
+    {
+      id: 3,
+      image: member3,
+      role: "Data collector",
+      statement:
+        "Unlocking Opportunities for Mothers with Disabilities: Through rigorous research and data collection, we strive to break down barriers and foster a more equitable society for mothers and families.",
+    },
+    {
+      id: 5,
+      image: member4,
+      role: "Research assistant",
+      statement:
+        "Researching the Intersection of Motherhood and Disability: Gathering data, sharing stories, and advocating for policies that support the unique needs of mothers with disabilities.",
+    },
+    {
+      id: 45,
+      image: member5,
+      role: "Research assistant",
+      statement:
+        "Transforming Maternal Healthcare through Disability-Inclusive Research: Our data-driven approach ensures that mothers with disabilities receive compassionate, comprehensive care.",
+    },
+    {
+      id: 65,
+      image: member2,
+      role: "Research assistant",
+      statement:
+        "Amplifying the Experiences of Mothers with Disabilities: Our research and data collection efforts prioritize accessibility, dignity, and social justice for all mothers.",
+    },
+    {
+      id: 65,
+      image: member6,
+      role: "Research assistant",
+      statement:
+        "Building a More Inclusive Future for Families: Through research, data analysis, and community engagement, we aim to dismantle systemic barriers facing mothers with disabilities.",
+    },
   ]);
   return (
     <>
@@ -20,7 +60,12 @@ const Testimonials = () => {
         </h1>
         <div className="relative grid grid-cols-3  max-sm:grid-cols-1 gap-3 mt-5 px-20 max-sm:px-5 ">
           {team.map((_, i) => (
-            <Testimonial image={_.image} key={i} role={_.role} />
+            <Testimonial
+              image={_.image}
+              key={i}
+              role={_.role}
+              statement={_.statement}
+            />
           ))}
         </div>
       </div>

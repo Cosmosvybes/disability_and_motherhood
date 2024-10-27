@@ -8,27 +8,27 @@ const Footer = () => {
         <div className="relative flex justify-between max-sm:flex-col gap-2">
           <div className="relative flex flex-col justify-normal">
             <h1 className="font-extrabold text-white text-2xl">
-              Sign up for our newsletter{" "}
+              Disability and Motherhood
               <ArrowRight className="text-2xl text-white inline" />
             </h1>
-            <p className="text-white font-bold  max-sm:text-sm">
+            {/* <p className="text-white font-bold  max-sm:text-sm">
               Get email updates about our disabilities and motherhood
               <span className="text-red-600 font-bold  max-sm:text-sm">
                 {" "}
                 events.{" "}
               </span>
-            </p>
+            </p> */}
           </div>
 
           <div className="relative w-96 max-sm:w-full   flex justify-between rounded-md ">
-            <input
+            {/* <input
               type="email"
               placeholder="email address here"
               className="h-full px-2 py-2 rounded-tl-md rounded-bl-md outline-none w-60 max-sm:w-full border-none"
             />
             <button className="bg-red-600 max-sm:w-1/3  text-white font-bold text-center rounded-tr-md rounded-br-md border-none w-full">
               Subscribe
-            </button>
+            </button> */}
           </div>
         </div>
         <hr className="border-t border-gray-400 mt-2" />
@@ -41,7 +41,7 @@ const Footer = () => {
             <div className="relative flex flex-col">
               <h1 className="text-white text-xl max-sm:text-sm font-bold">
                 {" "}
-                Find us on social media
+                Connect with Us
               </h1>
               <div className="flex items-center mt-2 gap-2 justify-start">
                 <Linkedln
