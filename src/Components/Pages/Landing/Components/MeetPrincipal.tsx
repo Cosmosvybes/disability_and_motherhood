@@ -2,7 +2,10 @@ import image from "../../../../assets/bolarinwa.jpg";
 const MeetPrincipal = () => {
   return (
     <>
-      <div className="relative h-auto py-1 max-sm:py-2  flex gap-5 max-sm:gap-0 justify-between max-sm:flex-col-reverse px-20 max-sm:px-2">
+      <div
+        id="Meet the Principal Investigator"
+        className="relative h-auto py-1 max-sm:py-2  flex gap-5 max-sm:gap-0 justify-between max-sm:flex-col-reverse px-20 max-sm:px-2"
+      >
         <div className="relative h-auto  max-sm:justify-center items-center flex max-sm:py-2 px-2">
           <div
             className="w-96 h-96 max-sm:w-52  max-sm:h-52  rounded-full  shadow drop-shadow-md      max-sm:object-contain"

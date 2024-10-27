@@ -68,7 +68,10 @@ const WelcomeSection = () => {
           </div>
         </div>
 
-        <div className="relative w-1/2 py-5 max-sm:w-full max-sm:px-2">
+        <div
+          className="relative w-1/2 py-5 max-sm:w-full max-sm:px-2"
+          id="About the project"
+        >
           <h1 className="text-center text-black  max-sm:text-2xl max-sm:py-2 text-4xl font-extrabold">
             About the project
           </h1>
