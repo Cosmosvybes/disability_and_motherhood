@@ -2,21 +2,22 @@ import image from "../../../../assets/pexels-photo-6393377.webp";
 const Extras = () => {
   return (
     <>
-      <div className="relative flex justify-between items-center max-sm:flex-col shadow shadow-white  py-5  h-auto px-20 max-sm:px-2 ">
-        <div
-          className="relative h-96  w-1/3 max-sm:w-full rounded-tl-xl rounded-bl-xl max-sm:rounded-tr-xl max-sm:rounded-tl-xl max-sm:rounded-bl-none  max-sm:object-contain flex justify-start items-center "
-          style={{
-            backgroundImage: `url(${image})`,
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-          }}
-        ></div>
+      <div className="relative flex justify-between max-sm:gap-2 items-center max-sm:flex-col shadow shadow-white  py-5  h-auto px-20 max-sm:px-2 ">
+      
         <div className="relatives px-5  h-96 max-sm:h-auto w-full justify-between items-center  flex bg-black rounded-none max-sm:rounded-br-xl max-sm:rounded-bl-xl  ">
           <h1 className="text-center text-gray-300 inline  max-sm:text-6xl max-sm:py-2 text-8xl font-extrabold">
             Mothers shape the world,
             <h1 className="text-gray-50 inline"> one child at a time. </h1>
           </h1>
         </div>
+        <div
+          className="relative h-96  w-1/3 max-sm:w-full rounded-tr-xl rounded-bl-none max-sm:rounded-tr-xl max-sm:rounded-tl-xl max-sm:rounded-bl-none  max-sm:object-contain flex justify-start items-center "
+          style={{
+            backgroundImage: `url(${image})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+          }}
+        ></div>
       </div>
     </>
   );

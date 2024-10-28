@@ -44,7 +44,7 @@ const Funders = () => {
         </div>
 
         <div className="relative flex flex-col justify-start w-1/2 max-sm:w-full py-2">
-          <p className="text-xl max-sm:text-sm font-normal text-gray-400">
+          <p className="text-sm font-bold text-gray-400">
             The funders of this project are the Union for Africa Population
             Studies and{" "}
             <span className="text-blue-700 ">
