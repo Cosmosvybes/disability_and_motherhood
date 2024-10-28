@@ -63,6 +63,7 @@ const Landing = () => {
           >
             {" "}
             <div className="absolute rounded-full w-44 h-44  max-sm:h-14 max-sm:w-14 bg-white -left-7 -top-5"></div>
+            <div className="absolute rounded-full w-44 h-44  max-sm:h-14 max-sm:w-14 bg-white -left-7 -bottom-5"></div>
             <h1 className="text-4xl text-white -rotate-90 max-sm:text-sm font-semibold ">
               RESEARCH
             </h1>

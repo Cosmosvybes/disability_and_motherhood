@@ -70,8 +70,9 @@ const WelcomeSection = () => {
         </div>
 
         <div className="relative items-center  max-sm:flex-col py-3 h-96  flex justify-between max-sm:justify-center px-20 max-sm:px-2">
-          <div   id="About the project"
-            className="relative  w-1/2 max-sm:object-contain max-sm:w-full   max-sm:px-2 h-full "
+          <div
+            id="About the project"
+            className="relative  w-1/2 max-sm:ml-6 max-sm:object-contain max-sm:w-full   max-sm:px-2 h-full "
             style={{
               backgroundImage: `url(${mumLogo})`,
               backgroundRepeat: "no-repeat",
@@ -79,12 +80,8 @@ const WelcomeSection = () => {
             }}
           ></div>
 
-
-          <div
-            className="relative w-full max-sm:py-0 max-sm:mt-2 py-5 max-sm:w-full max-sm:px-2"
-          
-          >
-            <h1 className="text-center max-sm:text-left max-sm:px-0 text-black  max-sm:text-2xl max-sm:py-0 text-4xl font-extrabold">
+          <div className="relative w-full max-sm:py-0 max-sm:mt-2 py-5 max-sm:w-full max-sm:px-2">
+            <h1 className="text-center max-sm:text-left max-sm:px-1 text-black  max-sm:text-2xl max-sm:py-0 text-4xl font-extrabold">
               About the project
             </h1>
 
