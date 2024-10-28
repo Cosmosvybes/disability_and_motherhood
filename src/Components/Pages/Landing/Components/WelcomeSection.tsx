@@ -90,7 +90,7 @@ const WelcomeSection = () => {
 
             <div className="relative max-sm:w-full   px-5 py-5 max-sm:px-0 bg-white  rounded-xl flex flex-col gap-5 max-sm:gap-4 h-auto">
               {" "}
-              <p className="text-left text-xl max-sm:text-sm  text-black antialiased">
+              <p className="text-black max-sm:text-sm text-sm font-bold antialiased">
                 {" "}
                 The Disability and Motherhood Project is focused on
                 understanding the healthcare challenges faced by mothers with

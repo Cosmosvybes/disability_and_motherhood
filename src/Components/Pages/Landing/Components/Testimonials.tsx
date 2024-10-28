@@ -55,7 +55,7 @@ const Testimonials = () => {
   ]);
   return (
     <>
-      <div className="relative h-auto py-5  max-sm:py-5 ">
+      <div className="relative bg-gray-50 h-auto py-5  max-sm:py-5 ">
         <h1 className="text-left px-20 max-sm:px-5  text-5xl max-sm:text-2xl font-bold">
           Team & Contributors
         </h1>

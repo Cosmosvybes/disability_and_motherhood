@@ -11,7 +11,7 @@ const SupportSection = () => {
   return (
     <>
       <div
-        className="relative px-20  py-10 max-sm:px-2 max-sm:py-5 h-auto"
+        className="relative px-20  py-10 max-sm:px-2 bg-gray-50 max-sm:py-5 h-auto"
         id="Field and Research Updates"
       >
         <div className="relative flex justify-between items-center">

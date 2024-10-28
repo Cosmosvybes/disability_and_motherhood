@@ -8,12 +8,12 @@ const Funders = () => {
         id="Support the Project"
         className="relative flex h-auto px-20 max-sm:px-2 flex-col gap-5  justify-start items-start"
       >
-        <h1 className="text-center text-black max-sm:px-2  max-sm:text-2xl max-sm:py-2 text-4xl font-extrabold">
+        <h1 className="text-center text-black max-sm:px-0  max-sm:text-2xl max-sm:py-2 text-4xl font-extrabold">
           Support the project{" "}
           <ArrowRight className="text-5xl max-sm:text-3xl text-black inline" />
         </h1>
         <div className="relative flex flex-col justify-start w-1/2 max-sm:w-full py-2">
-          <p className="text-xl max-sm:text-sm font-normal text-gray-400">
+          <p className="text-black max-sm:text-sm text-sm font-bold">
             To support this project please reach out to the principal
             investigator
             <span className="text-blue-700 ">
@@ -26,7 +26,7 @@ const Funders = () => {
 
         <div className="relative gap-3 flex justify-start items-center">
           <div
-            className="relative w-44 h-20 rounded-sm max-sm:object-contain"
+            className="relative w-44  max-sm:w-36 h-16 rounded-sm max-sm:object-contain"
             style={{
               backgroundImage: `url(${image})`,
               backgroundRepeat: "no-repeat",
@@ -34,7 +34,7 @@ const Funders = () => {
             }}
           ></div>
           <div
-            className="relative w-44 h-20 rounded-sm max-sm:object-contain"
+            className="relative w-52 max-sm:w-40   h-16 rounded-sm max-sm:object-contain"
             style={{
               backgroundImage: `url(${yorkImage})`,
               backgroundRepeat: "no-repeat",
