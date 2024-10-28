@@ -59,7 +59,7 @@ const Landing = () => {
 
           <div
             draggable
-            className="relative  -z-10 flex rounded-bl-none bg-black justify-center items-center h-full w-1/6 max-sm:w-auto rounded-xl"
+            className="relative  -z-10 flex rounded-bl-none bg-black justify-center items-center h-full w-1/6 max-sm:w-full rounded-xl"
           >
             {" "}
             <div className="absolute rounded-full w-44 h-44  max-sm:h-14 max-sm:w-14 bg-white -left-7 -top-5"></div>

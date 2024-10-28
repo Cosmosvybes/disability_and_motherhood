@@ -5,7 +5,7 @@ const ButtomExtras = () => {
     <>
       <div className="relative flex justify-between items-center max-sm:flex-col  py-5  h-auto px-20 max-sm:px-2 ">
         <div className="relatives px-5  h-96 max-sm:h-auto w-full justify-between items-center  flex  rounded-none max-sm:rounded-tr-xl max-sm:rounded-tl-xl  ">
-          <h1 className="text-center text-black max-sm:text-5xl max-sm:py-2 text-8xl font-extrabold">
+          <h1 className="text-center text-black max-sm:text-4xl max-sm:py-2 text-8xl font-extrabold">
             With adequate access and utilisation, every mother with disability{" "}
             <span className="text-gray-400"> stand a chance. </span>{" "}
           </h1>
