@@ -1,5 +1,6 @@
 import { ArrowRight } from "react-huge-icons/solid";
 import image from "../../../../assets/union.jpg";
+import yorkImage from "../../../../assets/York.png";
 const Funders = () => {
   return (
     <>
@@ -23,14 +24,24 @@ const Funders = () => {
           </p>
         </div>
 
-        <div
-          className="relative w-44 h-24 rounded-sm max-sm:object-contain"
-          style={{
-            backgroundImage: `url(${image})`,
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-          }}
-        ></div>
+        <div className="relative gap-3 flex justify-start items-center">
+          <div
+            className="relative w-44 h-20 rounded-sm max-sm:object-contain"
+            style={{
+              backgroundImage: `url(${image})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          ></div>
+          <div
+            className="relative w-44 h-20 rounded-sm max-sm:object-contain"
+            style={{
+              backgroundImage: `url(${yorkImage})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          ></div>
+        </div>
 
         <div className="relative flex flex-col justify-start w-1/2 max-sm:w-full py-2">
           <p className="text-xl max-sm:text-sm font-normal text-gray-400">
@@ -38,7 +49,7 @@ const Funders = () => {
             Studies and{" "}
             <span className="text-blue-700 ">
               {" "}
-              <a href="#"> York St. John University </a>{" "}
+              <a href="https://www.yorksj.ac.uk/"> York St. John University </a>{" "}
             </span>{" "}
             , and they have no role or influence on the results of this
             project in any way.

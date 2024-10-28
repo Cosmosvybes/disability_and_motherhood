@@ -29,10 +29,10 @@ const Landing = () => {
         <Navbar />{" "}
         <button
           onClick={handleScrollToTop}
-          className="fixed bottom-10 z-20 right-0 w-auto h-44 flex flex-col-reverse gap-5 rounded-tl-xl rounded-bl-xl justify-center items-center bg-black"
+          className="fixed bottom-10 z-20 right-0 w-12 h-28 flex flex-col-reverse gap-6 rounded-tl-md rounded-bl-md justify-center items-center bg-black"
         >
-          <p className="text-white -rotate-90 font-bold">TO-TOP</p>{" "}
-          <ArrowDropUp className="inline text-white text-2xl" />
+          <p className="text-white -rotate-90 text-xs font-thin">SCROLL UP</p>{" "}
+          <ArrowDropUp className="inline text-red-600 -ml-3 text-2xl animate-bounce duration-100"  />
         </button>
         <div className="relative  mt-5 h-full flex  justify-start items-center  px-28 max-sm:px-2">
           <div className="relative w-auto gap-4 max-sm:gap-2 flex flex-col">
