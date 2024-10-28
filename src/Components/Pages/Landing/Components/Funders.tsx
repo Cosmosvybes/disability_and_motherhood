@@ -18,7 +18,7 @@ const Funders = () => {
             investigator
             <span className="text-blue-700 ">
               {" "}
-              <a href="mailto:bolarinwaobasanjo@gmail.com">here </a>{" "}
+              <a href="mailto:dummy@admin.com">here </a>{" "}
             </span>{" "}
             or any of the project social media platforms.
           </p>
@@ -45,11 +45,21 @@ const Funders = () => {
 
         <div className="relative flex flex-col justify-start w-1/2 max-sm:w-full py-2">
           <p className="text-sm font-bold text-gray-400">
-            The funders of this project are the Union for Africa Population
-            Studies and{" "}
+            The funders of this project are the{" "}
             <span className="text-blue-700 ">
               {" "}
-              <a href="https://www.yorksj.ac.uk/"> York St. John University </a>{" "}
+              <a href="https://uaps-uepa.org/">
+                {" "}
+                Union for African Population Studies{" "}
+              </a>{" "}
+            </span>{" "}
+            and{" "}
+            <span className="text-blue-700 ">
+              {" "}
+              <a href="https://www.yorksj.ac.uk/">
+                {" "}
+                York St. John University{" "}
+              </a>{" "}
             </span>{" "}
             , and they have no role or influence on the results of this
             project in any way.

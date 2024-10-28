@@ -3,11 +3,10 @@ const Extras = () => {
   return (
     <>
       <div className="relative flex justify-between max-sm:gap-2 items-center max-sm:flex-col shadow shadow-white  py-5  h-auto px-20 max-sm:px-2 ">
-      
         <div className="relatives px-5  h-96 max-sm:h-auto w-full justify-between items-center  flex bg-black rounded-none max-sm:rounded-br-xl max-sm:rounded-bl-xl  ">
           <h1 className="text-center text-gray-300 inline  max-sm:text-6xl max-sm:py-2 text-8xl font-extrabold">
-            Mothers shape the world,
-            <h1 className="text-gray-50 inline"> one child at a time. </h1>
+            Empowering all women without
+            <h1 className="text-gray-50 inline"> leaving anyone behind</h1>
           </h1>
         </div>
         <div

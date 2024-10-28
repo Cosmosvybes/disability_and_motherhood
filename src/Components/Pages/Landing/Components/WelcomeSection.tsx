@@ -24,7 +24,7 @@ const WelcomeSection = () => {
       icon: (
         <User className="text-4xl max-sm:text-2xl text-white animate-pulse" />
       ),
-      title: "Meet the principal Investigator",
+      title: "Meet the Principal Investigator",
       description:
         "Learn about the eductaion for the disabilities and every other information needed.",
     },
@@ -42,7 +42,7 @@ const WelcomeSection = () => {
       icon: (
         <HealthCare className="text-4xl max-sm:text-2xl text-white animate-pulse" />
       ),
-      title: "Support the Research",
+      title: "Support the Project",
       description:
         "Learn about the eductaion for the disabilities and every other information needed.",
     },
@@ -50,9 +50,9 @@ const WelcomeSection = () => {
 
   return (
     <>
-      <div className="relative max-sm:mt-4  flex justify-center   py-5  items-center h-auto flex-col">
-        <div className="relative w-4/5 py-2 max-sm:w-full max-sm:px-5">
-          <h1 className="text-center text-black  max-sm:text-5xl max-sm:py-2 text-8xl font-extrabold">
+      <div className="relative max-sm:mt-4 bg-gray-50  flex justify-center   py-5  items-center h-auto flex-col">
+        <div className="relative w-4/5 py-2 max-sm:py-0 max-sm:w-full ">
+          <h1 className="text-left text-black max-sm:text-center  max-sm:text-4xl max-md:text-5xl max-sm:py-2 text-8xl font-extrabold">
             Get familiar with #mumAbility.
           </h1>
         </div>
@@ -69,9 +69,9 @@ const WelcomeSection = () => {
           </div>
         </div>
 
-        <div className="relative items-center  max-sm:flex-col py-3 h-96 flex justify-between max-sm:justify-center px-20 max-sm:px-5">
+        <div className="relative items-center  max-sm:flex-col py-3 h-96  flex justify-between max-sm:justify-center px-20 max-sm:px-2">
           <div   id="About the project"
-            className="relative  w-1/2 max-sm:object-contain max-sm:w-full  max-sm:px-2 h-full "
+            className="relative  w-1/2 max-sm:object-contain max-sm:w-full   max-sm:px-2 h-full "
             style={{
               backgroundImage: `url(${mumLogo})`,
               backgroundRepeat: "no-repeat",
@@ -88,7 +88,7 @@ const WelcomeSection = () => {
               About the project
             </h1>
 
-            <div className="relative max-sm:w-full   px-5 py-5 max-sm:px-0 bg-white  rounded-xl flex flex-col gap-5 max-sm:gap-4 h-auto">
+            <div className="relative max-sm:w-full   px-5 py-5 max-sm:px-2 bg-white  rounded-xl flex flex-col gap-5 max-sm:gap-4 h-auto">
               {" "}
               <p className="text-black max-sm:text-sm text-sm font-bold antialiased">
                 {" "}

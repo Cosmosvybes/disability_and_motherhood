@@ -38,7 +38,7 @@ const Navbar = () => {
           </div>
 
         </div>
-        <h1 className="text-2xl font-bold text-white">Logo </h1>
+        <h1 className="text-2xl font-bold text-black">Logo </h1>
 
         <div className="relative max-sm:hidden   justify-evenly flex gap-5">
           {menu.map((_, i) => (
@@ -47,14 +47,14 @@ const Navbar = () => {
               smooth
               to={_.title}
               key={i}
-              className="text-gray-50 cursor-pointer font-semibold text-xl"
+              className="text-black cursor-pointer font-semibold text-xl"
             >
               {_.title}
             </Link>
           ))}
         </div>
         <div className="relative  max-sm:block hidden rounded-full antialiased animate-pulse  border-4">
-          <div className="relative w-14 h-14  duration-1000   rounded-full max-sm:flex bg-gray-100  hidden justify-center items-center">
+          <div className="relative w-14 h-14  duration-1000   rounded-full max-sm:flex bg-gray-50  hidden justify-center items-center">
             <RemoveCircle
               className="text-4xl transition duration-500 text-black"
               onClick={() => setToggle(!toggle)}

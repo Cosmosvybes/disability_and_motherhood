@@ -5,6 +5,7 @@ import member3 from "../../../../assets/member3.jpg";
 import member4 from "../../../../assets/member4.jpg";
 import member5 from "../../../../assets/member54.jpg";
 import member6 from "../../../../assets/member5.jpg";
+import member7 from "../../../../assets/meber7.jpg";
 import { useState } from "react";
 
 const Testimonials = () => {
@@ -48,9 +49,16 @@ const Testimonials = () => {
     {
       id: 3,
       image: member3,
-      role: "Data collector",
+      role: "Data manager",
       statement:
         "Unlocking Opportunities for Mothers with Disabilities: Through rigorous research and data collection, we strive to break down barriers and foster a more equitable society for mothers and families.",
+    },
+    {
+      id: 8,
+      image: member7,
+      role: "Research assistant",
+      statement:
+        "Focusing on empowering Mothers, Stronger Communities: Investigating, supporting, and celebrating maternal resilience.",
     },
   ]);
   return (
@@ -59,7 +67,7 @@ const Testimonials = () => {
         <h1 className="text-left px-20 max-sm:px-5  text-5xl max-sm:text-2xl font-bold">
           Team & Contributors
         </h1>
-        <div className="relative grid grid-cols-3  max-sm:grid-cols-1 gap-3 mt-5 px-20 max-sm:px-5 ">
+        <div className="relative grid grid-cols-3 max-md:px-5  max-md:gap-2   max-sm:grid-cols-1 gap-3 mt-5 px-20 max-sm:px-5 ">
           {team.map((_, i) => (
             <Testimonial
               image={_.image}

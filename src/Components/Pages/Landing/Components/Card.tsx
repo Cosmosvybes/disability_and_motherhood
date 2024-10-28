@@ -14,14 +14,11 @@ const Card = ({ image }: { image: any }) => {
         ></div>
 
         <h1 className="text-2xl max-sm:text-sm px-1 font-bold">
-          Help Charlotte Family
+          Events and Research updates
         </h1>
         <div className="relative w-6/7  max-sm:w-full bg-gray-white  text-left space-x-10 rounded-xl px-0 max-sm:px-1 py-2 h-auto">
           <p className="text-black max-sm:text-sm text-sm font-bold">
-            Raising their children from medical expenses to daily living
-            support. Your donation helps the disbale to thrive. This program has
-            provided me with the support I needed to not only manage my
-            day-to-day tasks but also to truly thrive as a parent.{" "}
+            —Coming soon
           </p>{" "}
         </div>
 
