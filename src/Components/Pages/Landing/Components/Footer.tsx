@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <div className="relative py-10 px-20 max-md:px-0 max-sm:px-0 gap-5 max-sm:gap-2 max-sm:py-5 bg-black max-sm:mr-0 flex flex-col">
         <div className="relative flex items-center justify-start">
-          <h1 className="font-bold max-sm:text-sm  max-md:text-xl text-white text-2xl">
+          <h1 className="font-bold max-sm:text-sm  max-md:text-xl max-md:px-2 text-white text-2xl">
             Disability and Motherhood
           </h1>
           <ArrowRight className="text-2xl max-sm:text-xl text-white inline" />

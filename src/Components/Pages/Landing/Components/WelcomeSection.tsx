@@ -78,7 +78,7 @@ const WelcomeSection = () => {
           ></div>
 
           <div className="relative w-full max-sm:py-0 max-sm:mt-2 py-5 max-sm:w-full max-sm:px-2">
-            <h1 className="text-center max-sm:text-left max-sm:px-1 text-black  max-sm:text-2xl max-sm:py-0 text-4xl font-extrabold">
+            <h1 className="text-center max-sm:text-center max-sm:px-1 text-black  max-sm:text-2xl max-sm:py-0 text-4xl font-extrabold">
               About the project
             </h1>
 
