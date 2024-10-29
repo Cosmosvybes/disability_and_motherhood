@@ -1,3 +1,4 @@
+import { Linkedln, Twitter } from "react-huge-icons/bulk";
 import image from "../../../../assets/bola.jpg";
 const MeetPrincipal = () => {
   return (
@@ -14,13 +15,15 @@ const MeetPrincipal = () => {
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
             }}
-          ></div>
+          >
+            {/*  */}
+          </div>
         </div>
 
         <div className="relative w-3/4 max-md:w-5/6   max-sm:w-full flex flex-col gap-2  max-sm:gap-1 justify-center items-center">
           <h1 className="text-center text-black  max-md:text-xl max-sm:text-2xl max-sm:py-2 text-4xl font-extrabold">
             Meet the Principal investigator
-          </h1>  
+          </h1>
           <h1 className="text-8xl font-extrabold max-sm:text-center  max-md:text-4xl max-sm:text-4xl ">
             OBASANJO BOLARINWA
           </h1>
@@ -30,8 +33,10 @@ const MeetPrincipal = () => {
         </div>
       </div>
 
-      <div className="relative w-full  h-auto flex justify-end px-20
-      max-md:px-10   max-sm:px-2">
+      <div
+        className="relative w-full  h-auto flex justify-end px-20
+      max-md:px-10   max-sm:px-2"
+      >
         <div className="relative w-5/6 max-md:px-5 max-md:w-6/7 max-md:mb-5  py-0 flex justify-end px-10 max-sm:px-2 max-sm:py-5   max-sm:w-full ">
           <div className="relative w-3/4  max-md:w-full max-sm:w-full max-md:px-3 max-md:py-2  px-5 py-5 max-sm:px-3 bg-white max-sm:bg-gray-50 rounded-xl flex flex-col gap-5 max-sm:gap-4 h-auto">
             <p className="text-black max-sm:text-sm text-sm font-bold">

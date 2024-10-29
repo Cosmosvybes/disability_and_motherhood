@@ -24,7 +24,7 @@ const Testimonial = ({
             }}
           >
             {" "}
-            <Reward className="text-2xl absolute bottom-0 -right-5 text-yellow-600 " />{" "}
+            <Reward className="text-2xl absolute bottom-0 -right-5 text-gray-500" />{" "}
           </div>
         </div>
         <div className="relative w-full  h-auto  py-5 mt-3 px-3 ">

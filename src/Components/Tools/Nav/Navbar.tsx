@@ -12,8 +12,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <>
-      <div className="relative flex px-20 max-sm:px-2 max-md:px-4 justify-between items-center">
-      
+      <div className="relative flex px-28 py-10 max-sm:px-2 max-md:px-4 justify-end items-center">
         <div
           className="absolute bg-gray-50 flex justify-center items-center flex-col  transition duration-500  left-0 w-full"
           style={{
@@ -21,7 +20,7 @@ const Navbar = () => {
             transition: "0.5s ease-out",
           }}
         >
-          <div className=" z-10 absolute bottom-0  px-5 py-5 left-0  flex-col  justify-evenly flex gap-5">
+          <div className=" z-10 absolute bottom-0   px-5 py-5 left-0  flex-col  justify-evenly flex gap-5">
             {menu.map((_, i) => (
               <Link
                 onClick={() => setToggle(!toggle)}
@@ -30,15 +29,14 @@ const Navbar = () => {
                 style={{ visibility: !toggle ? "hidden" : "visible" }}
                 to={_.title}
                 key={i}
-                className="text-black font-semibold max-sm:flex max-md:flex  text-sm cursor-pointer"
+                className="text-black hover:bg-gray-400 transition duration-500 font-bold max-sm:flex max-md:flex  text-sm cursor-pointer"
               >
                 {_.title}
               </Link>
             ))}
           </div>
-
         </div>
-        <h1 className="text-2xl font-bold text-black">Logo </h1>
+        {/* <h1 className="text-2xl font-bold text-black">Logo </h1> */}
 
         <div className="relative max-sm:hidden max-md:hidden   justify-evenly flex gap-5">
           {menu.map((_, i) => (
@@ -47,7 +45,7 @@ const Navbar = () => {
               smooth
               to={_.title}
               key={i}
-              className="text-black cursor-pointer font-semibold text-xl"
+              className="text-black hover:text-gray-400 transition duration-50 cursor-pointer font-bold text-xl"
             >
               {_.title}
             </Link>

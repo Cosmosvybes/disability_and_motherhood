@@ -16,7 +16,7 @@ const WelcomeSection = () => {
         <OnlineLearning className="text-4xl max-sm:text-2xl text-white animate-pulse" />
       ),
       title: "About the project",
-      description: "Read about the project absract.",
+      description: "Read about the project.",
     },
     {
       id: 2,
@@ -47,10 +47,10 @@ const WelcomeSection = () => {
 
   return (
     <>
-      <div className="relative max-sm:mt-4 bg-gray-50  flex justify-center   py-5  items-center h-auto flex-col">
-        <div className="relative w-4/5 py-2 max-sm:py-0 max-sm:w-full ">
-          <h1 className="text-left text-black max-sm:text-center  max-sm:text-4xl max-md:text-3xl max-sm:py-2 text-8xl font-extrabold">
-            Get familiar with #mumAbility.
+      <div className="relative max-sm:mt-4 bg-gray-50  flex justify-start   py-5  items-center h-auto flex-col">
+        <div className="relative w-1/2 py-2 max-sm:py-0 max-sm:w-full ">
+          <h1 className="text-center text-black max-sm:text-center  max-sm:text-4xl max-md:text-3xl max-sm:py-2 text-4xl font-extrabold">
+            Get familiar with <span className="text-gray-500 animate-pulse"> #mumAbility </span> initiative.
           </h1>
         </div>
         <div className="relative w-full px-20 max-sm:px-0 mt-10 max-md:px-5  max-sm:w-full">

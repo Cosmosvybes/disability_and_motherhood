@@ -26,7 +26,7 @@ const Landing = () => {
           <p className="text-white -rotate-90 text-sm font-normal">SCROLL UP</p>{" "}
           <ArrowDropUp className="inline text-red-600 -ml-3 text-2xl animate-bounce duration-50" />
         </button>
-        <div className="relative  max-sm:gap-0.5 mb-2  mt-10 h-screen max-sm:h-96 max-md:h-1/2 max-md:px-0 flex justify-between items-center  px-28 max-sm:px-0">
+        <div className="relative  max-sm:gap-0.5 mb-2  h-screen max-sm:h-96 max-md:h-1/2 max-md:px-0 flex justify-between items-center  px-28 max-sm:px-0">
           <div
             className="relative max-md:w-full rounded-br-none rounded-tr-none flex justify-start px-5 max-sm:px-2 max-md:px-3 -z-10 max-sm:w-5/6  opacity-95  rounded-xl max-sm:rounded-none items-center h-full  w-4/5"
             style={{
@@ -46,7 +46,7 @@ const Landing = () => {
               <div className="relative">
                 <p className="text-2xl text-black max-sm:text-xl font-bold italic mt-2">
                   Supporting mothers with disabilities using evidence-based
-                  research through #MumAbility
+                  research through #MumAbility initiative.
                 </p>
               </div>
             </div>

@@ -5,7 +5,7 @@ import "swiper/css/pagination";
 // import image from "../../../../assets/Mother.webp";
 import { Pagination, Parallax } from "swiper/modules";
 import { ArrowRight } from "react-huge-icons/solid";
-import cardImage from "../../../../assets/wheelchair.webp";
+import cardImage from "../../../../assets/mother.jpg";
 
 const SupportSection = () => {
   return (
@@ -16,7 +16,7 @@ const SupportSection = () => {
       >
         <div className="relative flex justify-between items-center">
           <h1 className="text-left text-5xl max-md:text-2xl max-sm:text-xl font-bold">
-            Fields and Research Updates
+            Field and Research Updates
           </h1>{" "}
           <ArrowRight className="text-4xl max-sm:2xl" />{" "}
         </div>

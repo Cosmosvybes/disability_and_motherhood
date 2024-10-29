@@ -9,7 +9,7 @@ const Card = ({ image }: { image: any }) => {
           style={{
             backgroundImage: `url(${image})`,
             backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
+            backgroundSize: "contain",
           }}
         ></div>
 
