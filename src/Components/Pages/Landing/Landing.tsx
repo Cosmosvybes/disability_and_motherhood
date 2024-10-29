@@ -17,21 +17,18 @@ const Landing = () => {
 
   return (
     <>
-      {/* <div className="relative h-screen border flex justify-between"></div> */}
-      <div className="relative h-screen max-sm:h-96 object-fill    max-sm:py-5  py-10">
+      <section className="relative border  h-auto w-full max-sm:h-auto   max-sm:px-0 ">
         <Navbar />{" "}
         <button
           onClick={handleScrollToTop}
-          className="fixed bottom-10 z-20 right-0 w-12 h-28 flex flex-col-reverse gap-6 rounded-tl-md rounded-bl-md justify-center items-center bg-black"
+          className="fixed bottom-10 z-40 right-0 w-12 h-40 flex flex-col-reverse gap-6 rounded-tl-md rounded-bl-md justify-center items-center bg-black"
         >
-          <p className="text-white -rotate-90 text-xs font-light">SCROLL UP</p>{" "}
-          <ArrowDropUp className="inline text-red-600 -ml-3 text-2xl animate-bounce duration-100" />
+          <p className="text-white -rotate-90 text-sm font-normal">SCROLL UP</p>{" "}
+          <ArrowDropUp className="inline text-red-600 -ml-3 text-2xl animate-bounce duration-50" />
         </button>
-
-        
-        <div className="relative  max-sm:gap-0.5 mb-2  mt-10 h-full flex justify-between items-center  px-28 max-sm:px-2">
+        <div className="relative  max-sm:gap-0.5 mb-2  mt-10 h-screen max-sm:h-96 max-md:h-1/2 max-md:px-0 flex justify-between items-center  px-28 max-sm:px-0">
           <div
-            className="relative flex justify-start px-5 max-sm:px-2 max-md:px-3 -z-10 max-sm:w-full  opacity-95  rounded-xl items-center h-full  w-4/5"
+            className="relative max-md:w-full rounded-br-none rounded-tr-none flex justify-start px-5 max-sm:px-2 max-md:px-3 -z-10 max-sm:w-5/6  opacity-95  rounded-xl max-sm:rounded-none items-center h-full  w-4/5"
             style={{
               backgroundImage: `url(${image})`,
               backgroundSize: "cover",
@@ -39,11 +36,11 @@ const Landing = () => {
               objectFit: "contain",
             }}
           >
-            <div className="relative w-auto  gap-4 max-sm:gap-2 flex flex-col">
-              <h1 className="text-8xl text-black font-extrabold max-sm:text-5xl">
+            <div className="relative w-full  gap-4 max-sm:gap-2 flex flex-col">
+              <h1 className="text-8xl max-md:text-4xl  text-black font-extrabold max-sm:text-3xl">
                 Disability &
               </h1>
-              <h1 className="text-8xl font-extrabold text-black max-sm:text-5xl">
+              <h1 className="text-8xl max-md:text-4xl font-extrabold text-black max-sm:text-3xl">
                 Motherhood
               </h1>
               <div className="relative">
@@ -53,18 +50,10 @@ const Landing = () => {
                 </p>
               </div>
             </div>
-            <div className="absolute rounded-full w-44 h-44  max-sm:h-14 max-sm:w-14 bg-white -right-8 -bottom-4"></div>
-            <div className="absolute rounded-full w-44 h-44  max-sm:h-14 max-sm:w-14 bg-white  -right-10 -top-4"></div>
           </div>
 
-          <div
-            draggable
-            className="relative  -z-10 flex rounded-bl-none bg-black justify-center items-center h-full w-1/6 max-sm:w-full rounded-xl"
-          >
-            {" "}
-            <div className="absolute rounded-full w-44 h-44  max-sm:h-14 max-sm:w-14 bg-white -left-7 -top-5"></div>
-            <div className="absolute rounded-full w-44 h-44  max-sm:h-14 max-sm:w-14 bg-white -left-7 -bottom-5"></div>
-            <h1 className="text-4xl text-white -rotate-90 max-sm:text-sm font-semibold ">
+          <div className="relative  flex rounded-bl-none rounded-tl-none max-sm:rounded-none bg-black text-white   max-md:-z-20 justify-center items-center h-full w-1/6 max-sm:w-1/5 max-md:h-full rounded-xl">
+            <h1 className="text-4xl animate-pulse text-white max-md:text-text-black max-sm:text-white -rotate-90 max-sm:text-sm font-semibold ">
               RESEARCH
             </h1>
           </div>
@@ -77,7 +66,7 @@ const Landing = () => {
         <Testimonials />
         <Funders />
         <Footer />
-      </div>
+      </section>
     </>
   );
 };

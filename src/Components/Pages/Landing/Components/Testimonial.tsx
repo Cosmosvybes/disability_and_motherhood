@@ -11,7 +11,7 @@ const Testimonial = ({
 }) => {
   return (
     <>
-      <div className="relative  flex transition duration-500  gap-5  bg-white  max-sm:gap-2 rounded-xl justify-start  flex-col h-auto max-sm:h-auto w-full">
+      <div className="relative  flex transition duration-500  gap-5  bg-white  max-sm:gap-2 rounded-xl justify-start  flex-col h-96 max-sm:h-96 w-96 max-sm:w-full max-md:w-full max-md:h-96">
         <FormatQuote className="absolute right-0 top-5 text-5xl   opacity-10" />
         <FormatQuote className="absolute left-0 bottom-5 text-5xl   opacity-10" />
         <div className=" w-1/2 max-sm:w-1/2 max-sm:h-auto   flex justify-normal  py-5 px-5 ">
@@ -32,8 +32,7 @@ const Testimonial = ({
             {statement}
           </p>
         </div>
-        <div className="relative w-full flex-col   px-5 py-5 flex justify-end items-end">
-          {/* <strong className="italic"> — Sarah M Connor.</strong> */}
+        <div className="relative w-full flex-col  max-md:py-0  px-5 py-5 flex justify-end items-end">
           <p className="text-gray-500 block">{role}</p>
         </div>
       </div>

@@ -64,10 +64,10 @@ const Testimonials = () => {
   return (
     <>
       <div className="relative bg-gray-50 h-auto py-5  max-sm:py-5 ">
-        <h1 className="text-left px-20 max-sm:px-5  text-5xl max-sm:text-2xl font-bold">
+        <h1 className="text-left px-20 text-5xl max-sm:text-2xl max-md:px-2 max-sm:px-2 font-bold">
           Team & Contributors
         </h1>
-        <div className="relative grid grid-cols-3 max-md:px-5  max-md:gap-2   max-sm:grid-cols-1 gap-3 mt-5 px-20 max-sm:px-5 ">
+        <div className="relative flex items-center justify-center gap-7 flex-wrap max-md:px-5  max-md:grid grid-cols-2  max-md:grid-cols-2  max-md:gap-2   max-sm:grid-cols-1  mt-5 px-0 max-sm:px-1">
           {team.map((_, i) => (
             <Testimonial
               image={_.image}

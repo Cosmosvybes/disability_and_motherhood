@@ -12,7 +12,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <>
-      <div className="relative flex px-20 max-sm:px-2 justify-between items-center">
+      <div className="relative flex px-20 max-sm:px-2 max-md:px-4 justify-between items-center">
       
         <div
           className="absolute bg-gray-50 flex justify-center items-center flex-col  transition duration-500  left-0 w-full"
@@ -30,7 +30,7 @@ const Navbar = () => {
                 style={{ visibility: !toggle ? "hidden" : "visible" }}
                 to={_.title}
                 key={i}
-                className="text-black font-semibold text-sm cursor-pointer"
+                className="text-black font-semibold max-sm:flex max-md:flex  text-sm cursor-pointer"
               >
                 {_.title}
               </Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
         <h1 className="text-2xl font-bold text-black">Logo </h1>
 
-        <div className="relative max-sm:hidden   justify-evenly flex gap-5">
+        <div className="relative max-sm:hidden max-md:hidden   justify-evenly flex gap-5">
           {menu.map((_, i) => (
             <Link
               duration={500}
@@ -53,8 +53,8 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-        <div className="relative  max-sm:block hidden rounded-full antialiased animate-pulse  border-4">
-          <div className="relative w-14 h-14  duration-1000   rounded-full max-sm:flex bg-gray-50  hidden justify-center items-center">
+        <div className="relative  max-md:block max-sm:block hidden  rounded-full antialiased animate-pulse  border-4">
+          <div className="relative w-14 h-14  duration-1000 max-md:flex   rounded-full max-sm:flex bg-gray-50  hidden justify-center items-center">
             <RemoveCircle
               className="text-4xl transition duration-500 text-black"
               onClick={() => setToggle(!toggle)}

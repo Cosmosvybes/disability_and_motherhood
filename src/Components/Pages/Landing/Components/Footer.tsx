@@ -3,41 +3,16 @@ import { ArrowRight, Linkedln, Mail, Twitter } from "react-huge-icons/solid";
 const Footer = () => {
   return (
     <>
-      <div className="relative h-24 bg-gray-50 mt-2"></div>
-      <div className="relative py-10 px-20 max-sm:px-2 gap-5 max-sm:gap-2 max-sm:py-5 bg-black flex flex-col">
-        <div className="relative flex justify-between max-sm:flex-col gap-2">
-          <div className="relative flex flex-col justify-normal">
-            <h1 className="font-extrabold text-white text-2xl">
-              Disability and Motherhood
-              <ArrowRight className="text-2xl text-white inline" />
-            </h1>
-            {/* <p className="text-white font-bold  max-sm:text-sm">
-              Get email updates about our disabilities and motherhood
-              <span className="text-red-600 font-bold  max-sm:text-sm">
-                {" "}
-                events.{" "}
-              </span>
-            </p> */}
-          </div>
-
-          <div className="relative w-96 max-sm:w-full   flex justify-between rounded-md ">
-            {/* <input
-              type="email"
-              placeholder="email address here"
-              className="h-full px-2 py-2 rounded-tl-md rounded-bl-md outline-none w-60 max-sm:w-full border-none"
-            />
-            <button className="bg-red-600 max-sm:w-1/3  text-white font-bold text-center rounded-tr-md rounded-br-md border-none w-full">
-              Subscribe
-            </button> */}
-          </div>
+      <div className="relative py-10 px-20 max-md:px-0 max-sm:px-0 gap-5 max-sm:gap-2 max-sm:py-5 bg-black max-sm:mr-0 flex flex-col">
+        <div className="relative flex items-center justify-start">
+          <h1 className="font-bold max-sm:text-sm  max-md:text-xl text-white text-2xl">
+            Disability and Motherhood
+          </h1>
+          <ArrowRight className="text-2xl max-sm:text-xl text-white inline" />
         </div>
         <hr className="border-t border-gray-400 mt-2" />
-
-        <div className="relative max-sm:px-0 flex py-5 justify-between max-sm:flex-row-reverse mt-2">
-          <h1 className="text-2xl text-white"> Logo</h1>
-          {/*  */}
-
-          <div className="relative max-sm:flex-col px-5 max-sm:px-1  flex gap-5 max-sm:gap-3 justify-around w-1/2 max-sm:w-auto h-auto ">
+        <div className="relative w-full flex justify-between max-sm:px-1">
+          <div className="relative max-sm:flex-col max-sm:px-1 max-md:grid grid-cols-2 max-md:gap-10 max-md:px-2 max-md:w-4/5 flex gap-5 max-sm:gap-3 justify-between w-1/2 max-sm:w-auto h-auto ">
             <div className="relative flex flex-col">
               <h1 className="text-white text-xl max-sm:text-sm font-bold">
                 {" "}
@@ -62,10 +37,6 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* 
-            
-            */}
-
             <div className="relative flex flex-col">
               <h1 className="text-white text-xl max-sm:text-sm font-bold">
                 {" "}
@@ -80,7 +51,6 @@ const Footer = () => {
               </div>
             </div>
 
-            {/*  */}
             <div className="relative flex flex-col">
               <h1 className="text-white text-xl max-sm:text-sm font-bold">
                 {" "}
@@ -93,11 +63,17 @@ const Footer = () => {
               </div>
             </div>
           </div>
+
+          <div className="relative w-28 h-28 max-md:h-24 max-md:w-24 max-sm:w-24 max-sm:w-h-24 flex justify-center items-center rounded-full border">
+            <h1 className="text-2xl text-white"> Logo</h1>
+          </div>
         </div>
 
-        <p className=" text-white text-2xl max-sm:text-sm max-sm:px-1">
-          Disability and Motherhood &copy; • {new Date().getFullYear()}{" "}
-        </p>
+        <div className="relative max-sm:px-2 ">
+          <p className=" font-extrabold max-sm:text-sm  max-md:text-xl text-white text-2xl">
+            Disability and Motherhood &copy; • {new Date().getFullYear()}{" "}
+          </p>
+        </div>
       </div>
     </>
   );

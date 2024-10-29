@@ -11,11 +11,11 @@ const SupportSection = () => {
   return (
     <>
       <div
-        className="relative px-20  py-10 max-sm:px-2 bg-gray-50 max-sm:py-5 h-auto"
+        className="relative px-20 max-md:px-10  py-10 max-sm:px-2 bg-gray-50 max-sm:py-5 h-auto"
         id="Field and Research Updates"
       >
         <div className="relative flex justify-between items-center">
-          <h1 className="text-left text-5xl max-sm:text-xl font-bold">
+          <h1 className="text-left text-5xl max-md:text-2xl max-sm:text-xl font-bold">
             Fields and Research Updates
           </h1>{" "}
           <ArrowRight className="text-4xl max-sm:2xl" />{" "}

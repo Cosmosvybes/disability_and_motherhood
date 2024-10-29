@@ -6,7 +6,7 @@ const Funders = () => {
     <>
       <div
         id="Support the Project"
-        className="relative flex h-auto px-20 max-sm:px-2 flex-col gap-5  justify-start items-start"
+        className="relative flex h-auto max-md:px-10  px-20 max-sm:px-2 flex-col gap-5  justify-start items-start"
       >
         <h1 className="text-center text-black max-sm:px-0  max-sm:text-2xl max-sm:py-2 text-4xl font-extrabold">
           Support the project{" "}
