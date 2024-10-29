@@ -1,5 +1,5 @@
 import { ArrowRight, Linkedln, Mail, Twitter } from "react-huge-icons/solid";
-
+import image from "../../../../assets/mother.jpg";
 const Footer = () => {
   return (
     <>
@@ -64,9 +64,14 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="relative w-28 h-28 max-md:h-24 max-md:w-24 max-sm:w-24 max-sm:w-h-24 flex justify-center items-center rounded-full border">
-            <h1 className="text-2xl text-white"> Logo</h1>
-          </div>
+          <div
+            className="relative w-28 h-28 max-md:h-24  max-md:w-24 max-sm:w-24 max-sm:w-h-24 flex justify-center items-center rounded-full"
+            style={{
+              backgroundImage: `url(${image})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          ></div>
         </div>
 
         <div className="relative max-sm:px-2 ">

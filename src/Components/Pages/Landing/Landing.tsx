@@ -52,7 +52,7 @@ const Landing = () => {
             </div>
           </div>
 
-          <div className="relative  flex rounded-bl-none rounded-tl-none max-sm:rounded-none bg-black text-white   max-md:-z-20 justify-center items-center h-full w-1/6 max-sm:w-1/5 max-md:h-full rounded-xl">
+          <div className="relative  flex rounded-bl-none rounded-tl-none max-sm:rounded-none bg-black text-white  max-md:w-1/2  -z-10  justify-center items-center h-full w-1/6 max-sm:w-1/5 max-md:h-full rounded-xl">
             <h1 className="text-4xl animate-pulse text-white max-md:text-text-black max-sm:text-white -rotate-90 max-sm:text-sm font-semibold ">
               RESEARCH
             </h1>

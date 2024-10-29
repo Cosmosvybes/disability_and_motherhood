@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { MenuLineHorizontal, RemoveCircle } from "react-huge-icons/solid";
 import { Link } from "react-scroll";
-
+import image from "../../../assets/mother.jpg";
 const Navbar = () => {
   const [menu] = useState([
     { id: 1, title: "About the project" },
@@ -12,7 +12,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <>
-      <div className="relative flex px-28 py-10 max-sm:px-2 max-md:px-4 justify-end items-center">
+      <div className="relative flex px-28 py-10 max-sm:px-2 max-md:px-4 justify-between items-center">
         <div
           className="absolute bg-gray-50 flex justify-center items-center flex-col  transition duration-500  left-0 w-full"
           style={{
@@ -36,6 +36,14 @@ const Navbar = () => {
             ))}
           </div>
         </div>
+        <div
+          className="relative w-28 h-28 max-md:h-24  max-md:w-24 max-sm:w-24 max-sm:w-h-24 flex justify-center items-center rounded-full"
+          style={{
+            backgroundImage: `url(${image})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+          }}
+        ></div>
         {/* <h1 className="text-2xl font-bold text-black">Logo </h1> */}
 
         <div className="relative max-sm:hidden max-md:hidden   justify-evenly flex gap-5">
