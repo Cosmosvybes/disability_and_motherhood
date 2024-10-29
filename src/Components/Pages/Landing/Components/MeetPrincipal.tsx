@@ -1,4 +1,4 @@
-import { Linkedln, Twitter } from "react-huge-icons/bulk";
+
 import image from "../../../../assets/bola.jpg";
 const MeetPrincipal = () => {
   return (
