@@ -8,7 +8,7 @@ import Extras from "./Components/Extras";
 import ButtomExtras from "./Components/ButtomExtras";
 import MeetPrincipal from "./Components/MeetPrincipal";
 import Funders from "./Components/Funders";
-import { ArrowDropUp } from "react-huge-icons/solid";
+import { ArrowDropUp, GlobeSideView } from "react-huge-icons/solid";
 
 const Landing = () => {
   const handleScrollToTop = () => {
@@ -26,9 +26,9 @@ const Landing = () => {
           <p className="text-white -rotate-90 text-sm font-normal">SCROLL UP</p>{" "}
           <ArrowDropUp className="inline text-red-600 -ml-3 text-2xl animate-bounce duration-50" />
         </button>
-        <div className="relative  max-sm:gap-0.5 mb-2  h-screen max-sm:h-96 max-md:h-1/2 max-md:px-0 flex justify-between items-center  px-28 max-sm:px-0">
+        <div className="relative  max-sm:gap-0.5 mb-2 max-md:rounded-none  h-screen max-sm:h-auto max-md:h-1/2 max-md:px-0 max-md:flex-col-reverse flex justify-between items-center  px-28 max-sm:px-0">
           <div
-            className="relative max-md:w-full rounded-br-none rounded-tr-none flex justify-start px-5 max-sm:px-2 max-md:px-3 -z-10 max-sm:w-5/6  opacity-95  rounded-xl max-sm:rounded-none items-center h-full  w-4/5"
+            className="relative max-md:w-full rounded-br-none max-md:rounded-br-none rounded-tr-none flex justify-start px-5 max-sm:px-2 max-md:px-3 -z-10 max-sm:w-full  opacity-95  rounded-xl max-sm:rounded-none items-center h-full  w-4/5"
             style={{
               backgroundImage: `url(${image})`,
               backgroundSize: "cover",
@@ -37,10 +37,10 @@ const Landing = () => {
             }}
           >
             <div className="relative w-full  gap-4 max-sm:gap-2 flex flex-col">
-              <h1 className="text-8xl max-md:text-4xl  text-black font-extrabold max-sm:text-3xl">
+              <h1 className="text-8xl max-md:text-4xl  text-black font-extrabold max-sm:text-xl">
                 Disability &
               </h1>
-              <h1 className="text-8xl max-md:text-4xl font-extrabold text-black max-sm:text-3xl">
+              <h1 className="text-8xl max-md:text-4xl font-extrabold text-black max-sm:text-xl">
                 Motherhood
               </h1>
               <div className="relative">
@@ -52,9 +52,9 @@ const Landing = () => {
             </div>
           </div>
 
-          <div className="relative  flex rounded-bl-none rounded-tl-none max-sm:rounded-none bg-black text-white  max-md:w-1/2  -z-10  justify-center items-center h-full w-1/6 max-sm:w-1/5 max-md:h-full rounded-xl">
-            <h1 className="text-4xl animate-pulse text-white max-md:text-text-black max-sm:text-white -rotate-90 max-sm:text-sm font-semibold ">
-              RESEARCH
+          <div className="relative  flex rounded-bl-none rounded-tl-none max-sm:rounded-none bg-gradient-to-br from-black to-gray-800 text-white  max-md:w-full  -z-10  justify-center items-center h-full w-1/6 max-sm:h-44 max-md:h-52   max-md:rounded-none rounded-xl">
+            <h1 className="text-4xl animate-pulse text-white max-md:text-text-black max-sm:text-white  max-sm:text-sm font-semibold ">
+              RESEARCH  <GlobeSideView className="inline text-2xl text-white"/>
             </h1>
           </div>
         </div>

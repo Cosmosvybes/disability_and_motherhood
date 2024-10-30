@@ -54,7 +54,7 @@ const WelcomeSection = () => {
           </h1>
         </div>
         <div className="relative w-full px-20 max-sm:px-0 mt-10 max-md:px-5  max-sm:w-full">
-          <div className="relative grid gap-5 mt-3 grid-cols-2 max-sm:grid-cols-1 border-black max-sm:px-2">
+          <div className="relative grid gap-5 mt-3 mb-3 grid-cols-2 max-sm:grid-cols-1 border-black max-sm:px-2">
             {indicatorMenu.map((_, i) => (
               <Indicator
                 key={i}
@@ -66,10 +66,10 @@ const WelcomeSection = () => {
           </div>
         </div>
 
-        <div className="relative items-center  max-md:px-10 max-sm:flex-col py-3 h-96  flex justify-between max-sm:justify-center px-20 max-sm:px-2">
+        <div className="relative items-center   max-sm:flex-col py-3 h-auto max-md:h-96 max-md:px-5  flex justify-between max-sm:justify-center px-20 max-sm:px-2">
           <div
             id="About the project"
-            className="relative  w-1/2 max-sm:ml-6 max-sm:object-contain max-sm:w-full   max-sm:px-2 h-full "
+            className="relative h-44  w-1/2 max-sm:ml-6 max-sm:object-cover max-sm:w-full   max-sm:px-2  "
             style={{
               backgroundImage: `url(${mumLogo})`,
               backgroundRepeat: "no-repeat",
@@ -77,14 +77,14 @@ const WelcomeSection = () => {
             }}
           ></div>
 
-          <div className="relative w-full max-sm:py-0 max-sm:mt-2 py-5 max-sm:w-full max-sm:px-2">
+          <div className="relative w-full max-sm:py-4 max-sm:mt-4 py-5 max-sm:w-full max-sm:px-2">
             <h1 className="text-center max-sm:text-center max-sm:px-1 text-black  max-sm:text-2xl max-sm:py-3 max-md:py-4 text-4xl font-extrabold">
               About the project
             </h1>
 
             <div className="relative max-sm:w-full   px-5 py-5 max-sm:px-2 bg-white  rounded-xl flex flex-col gap-5 max-sm:gap-4 h-auto">
               {" "}
-              <p className="text-black max-sm:text-sm text-sm font-bold antialiased">
+              <p className="text-black max-sm:text-sm text-xl font-bold antialiased">
                 {" "}
                 The Disability and Motherhood Project is focused on
                 understanding the healthcare challenges faced by mothers with

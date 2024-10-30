@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
         </div>
         <div
-          className="relative w-28 h-28 max-md:h-24  max-md:w-24 max-sm:w-24 max-sm:w-h-24 flex justify-center items-center rounded-full"
+          className="relative w-28 h-28 max-md:h-24  -z-10 max-md:w-24 max-sm:w-24 max-sm:w-h-24 flex justify-center items-center rounded-full"
           style={{
             backgroundImage: `url(${image})`,
             backgroundRepeat: "no-repeat",

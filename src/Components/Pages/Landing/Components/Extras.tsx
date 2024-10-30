@@ -6,7 +6,10 @@ const Extras = () => {
         <div className="relative px-5 max-sm:px-2 max-md:h-auto  h-96 max-sm:h-auto w-full justify-between items-center  flex bg-black rounded-none max-sm:rounded-br-xl max-sm:rounded-bl-xl  ">
           <h1 className="text-center text-gray-300 inline  max-md:text-2xl max-sm:text-4xl max-sm:py-2 text-8xl font-extrabold">
             Empowering all women without
-            <h1 className="text-gray-50 inline"> leaving anyone behind</h1>
+            <h1 className="text-gray-50  inline  max-md:text-2xl max-sm:text-4xl max-sm:py-2 text-8xl font-extrabold">
+              {" "}
+              leaving anyone behind
+            </h1>
           </h1>
         </div>
         <div
