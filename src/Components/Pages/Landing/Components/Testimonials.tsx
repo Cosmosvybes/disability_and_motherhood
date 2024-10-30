@@ -67,7 +67,7 @@ const Testimonials = () => {
         <h1 className="text-left max-md:text-center px-20 text-5xl max-sm:text-2xl max-md:px-2 max-sm:px-2 font-bold">
           Team & Contributors
         </h1>
-        <div className="relative flex items-center justify-center gap-7 flex-wrap max-md:px-5  max-md:grid grid-cols-2  max-md:grid-cols-2  max-md:gap-2   max-sm:grid-cols-1  mt-5 px-0 max-sm:px-2">
+        <div className="relative flex items-center justify-center gap-7 max-md:gap-2 flex-wrap max-md:px-5  max-md:flex   max-md:flex-wrap     max-sm:grid-cols-1  mt-5 px-0 max-sm:px-2">
           {team.map((_, i) => (
             <Testimonial
               image={_.image}

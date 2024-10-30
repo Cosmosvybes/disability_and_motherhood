@@ -47,7 +47,7 @@ const WelcomeSection = () => {
 
   return (
     <>
-      <div className="relative max-sm:mt-4 bg-gray-50  flex justify-start   py-5  items-center h-auto flex-col">
+      <div className="relative max-sm:mt-4 bg-gray-50 max-md:bg-white  flex justify-start   py-5  items-center h-auto flex-col">
         <div className="relative w-1/2 py-2 max-sm:py-0 max-sm:w-full ">
           <h1 className="text-center text-black max-sm:text-center  max-sm:text-4xl max-md:text-3xl max-sm:py-2 text-4xl font-extrabold">
             Get familiar with <span className="text-gray-500 animate-pulse"> #mumAbility </span> initiative.

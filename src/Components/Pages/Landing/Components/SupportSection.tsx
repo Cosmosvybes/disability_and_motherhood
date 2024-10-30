@@ -32,10 +32,10 @@ const SupportSection = () => {
   return (
     <>
       <div
-        className="relative px-20 max-md:px-2 max-md:py-2  py-5 max-sm:px-2 bg-gray-50 max-sm:py-2 h-auto"
+        className="relative px-20 max-md:px-2 max-md:py-2  py-5 max-sm:px-4 bg-gray-50 max-sm:py-2 h-auto"
         id="Field and Research Updates"
       >
-        <div className="relative flex justify-between items-center">
+        <div className="relative max-md:px-2 flex justify-between items-center">
           <h1 className="text-left text-5xl max-md:text-2xl max-sm:text-xl font-bold">
             Field and Research Updates
           </h1>{" "}

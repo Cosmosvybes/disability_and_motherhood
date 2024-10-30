@@ -3,7 +3,7 @@ import image from "../../../../assets/mother.jpg";
 const Footer = () => {
   return (
     <>
-      <div className="relative h-96 max-w-sm:h-auto max-md:h-auto py-20 px-20 max-md:px-0 max-sm:px-0 gap-5 max-sm:gap-2 max-sm:py-5 bg-black max-sm:mr-0 flex flex-col">
+      <div className="relative h-96 max-w-sm:h-auto max-md:px-5 max-md:h-auto py-20 px-20  max-sm:px-0 gap-5 max-sm:gap-2 max-sm:py-5 bg-black max-sm:mr-0 flex flex-col">
         <div className="relative flex items-center justify-start">
           <h1 className="font-bold max-sm:text-sm  max-md:text-xl max-md:px-2 text-white text-2xl">
             Disability and Motherhood
