@@ -11,13 +11,13 @@ const Testimonial = ({
 }) => {
   return (
     <>
-      <div className="relative h-auto px-2 py-2  flex transition duration-500 bg-white  max-sm:gap-2 rounded-xl justify-start items-start  flex-col max-sm:h-auto w-96 max-sm:w-full max-md:w-full max-md:h-72">
+      <div className="relative h-96 px-2 py-2  flex-col flex transition duration-500 bg-white  max-sm:gap-2 gap-3 rounded-xl justify-start items-start   max-sm:h-auto w-96 max-sm:w-full max-md:h-96">
         <FormatQuote className="absolute right-0 top-5 text-5xl   opacity-10" />
-        <FormatQuote className="absolute left-0 bottom-5 text-5xl   opacity-10" />
+        <FormatQuote className="absolute left-0 bottom-0 text-5xl   opacity-10" />
 
-        <div className="relative h-44  w-full flex justify-start max-md:justify-start items-start">
+        <div className="relative  h-auto max-md:h-auto max-sm:h-auto  w-full flex justify-start max-md:justify-start items-start">
           <div
-            className="relative  max-md:-left-0 bg-white  shadow-inner rounded-full max-md:h-20 max-md:w-20 h-28 w-28 "
+            className="relative  max-md:-left-0 bg-white  shadow-inner rounded-full max-md:h-20 max-md:w-20 h-28 w-28"
             style={{
               backgroundImage: `url(${image})`,
               backgroundRepeat: "no-repeat",
@@ -26,13 +26,13 @@ const Testimonial = ({
           ></div>
         </div>
 
-        <div className="relative w-full h-28 mt-4 px-2 py-2">
+        <div className="relative w-full  h-auto px-2 py-2">
           <p className="text-black max-sm:text-sm text-xl font-bold antialiased">
             {statement}{" "}
           </p>
         </div>
 
-        <div className="relative w-full flex-col h-auto  max-md:py-0  px-2 py-4 mt-5 flex justify-end items-end">
+        <div className="relative w-full  h-auto  max-md:py-0  px-2 py-4  flex justify-end items-end">
           <p className="text-gray-500 font-semibold block">{role} <Reward className="inline text-2xl text-black"/> </p>
         </div>
       </div>

@@ -36,8 +36,8 @@ const MeetPrincipal = () => {
         className="relative w-full  h-auto flex justify-end px-20
       max-md:px-10   max-sm:px-2"
       >
-        <div className="relative w-5/6 max-md:px-5 max-md:w-6/7 max-md:mb-5  py-0 flex justify-end px-10 max-sm:px-2 max-sm:py-5   max-sm:w-full ">
-          <div className="relative w-3/4  max-md:w-full max-sm:w-full max-md:px-3 max-md:py-2  px-5 py-5 max-sm:px-3 bg-white max-sm:bg-gray-50 rounded-xl flex flex-col gap-5 max-sm:gap-4 h-auto">
+        <div className="relative w-5/6 max-md:px-0 max-md:w-6/7 max-md:mb-3  py-0 flex justify-end px-10 max-sm:px-2 max-sm:py-5   max-sm:w-full ">
+          <div className="relative w-3/4  gap-4 max-md:w-full max-sm:w-full max-md:px-0  max-md:py-2  px-5 py-5 max-sm:px-1  bg-white rounded-xl flex flex-col  max-sm:gap-2 h-auto">
             <p className="text-black max-sm:text-sm text-xl font-bold antialiased">
               Welcome to the Disability and Motherhood Project website. I’m
               Obasanjo Bolarinwa, a Senior Lecturer and the Research Knowledge

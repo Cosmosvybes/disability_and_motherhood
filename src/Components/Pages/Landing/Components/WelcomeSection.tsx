@@ -66,7 +66,7 @@ const WelcomeSection = () => {
           </div>
         </div>
 
-        <div className="relative items-center   max-sm:flex-col py-3 h-auto max-md:h-96 max-md:px-5  flex justify-between max-sm:justify-center px-20 max-sm:px-2">
+        <div className="relative items-center   max-sm:flex-col py-3 h-auto max-md:h-auto max-md:px-5  flex justify-between max-sm:justify-center px-20 max-sm:px-2">
           <div
             id="About the project"
             className="relative h-44  w-1/2 max-sm:ml-6 max-sm:object-cover max-sm:w-full   max-sm:px-2  "
@@ -82,7 +82,7 @@ const WelcomeSection = () => {
               About the project
             </h1>
 
-            <div className="relative max-sm:w-full   px-5 py-5 max-sm:px-2 bg-white  rounded-xl flex flex-col gap-5 max-sm:gap-4 h-auto">
+            <div className="relative max-sm:w-full max-md:px-0   px-5 py-5 max-sm:px-2 bg-white  rounded-xl flex flex-col gap-2 max-sm:gap-4 h-auto">
               {" "}
               <p className="text-black max-sm:text-sm text-xl font-bold antialiased">
                 {" "}

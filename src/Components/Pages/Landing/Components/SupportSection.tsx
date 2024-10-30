@@ -4,14 +4,15 @@ import "swiper/css/pagination";
 // import image from "../../../../assets/Mother.webp";
 import { Pagination, Parallax } from "swiper/modules";
 import { ArrowRight } from "react-huge-icons/solid";
-import cardImage from "../../../../assets/mother.jpg";
+
 import { useState } from "react";
 import Card_ from "./Card";
-
+import researchImage from "../../../../assets/research.jpg";
 const SupportSection = () => {
   const [research] = useState([
     {
       id: 1,
+      image: researchImage,
       researchTitle:
         "The role of artificial intelligence in transforming maternity services in Africa: prospects and challenges",
       content:
@@ -31,7 +32,7 @@ const SupportSection = () => {
   return (
     <>
       <div
-        className="relative px-20 max-md:px-4  py-10 max-sm:px-2 bg-gray-50 max-sm:py-2 h-auto"
+        className="relative px-20 max-md:px-2 max-md:py-2  py-5 max-sm:px-2 bg-gray-50 max-sm:py-2 h-auto"
         id="Field and Research Updates"
       >
         <div className="relative flex justify-between items-center">
@@ -56,9 +57,9 @@ const SupportSection = () => {
           className="mySwiper h-auto "
         >
           {research.map((_, i) => (
-            <SwiperSlide key={i} className="py-6 max-sm:py-2">
+            <SwiperSlide key={i} className="py-6 max-md:py-0 max-sm:py-2">
               <Card_
-                image={cardImage}
+                image={_.image}
                 researchTitle={_.researchTitle}
                 content={_.content}
               />
