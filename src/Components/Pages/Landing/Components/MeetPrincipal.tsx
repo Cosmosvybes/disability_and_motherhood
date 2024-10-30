@@ -1,4 +1,3 @@
-
 import image from "../../../../assets/bola.jpg";
 const MeetPrincipal = () => {
   return (
@@ -39,14 +38,15 @@ const MeetPrincipal = () => {
       >
         <div className="relative w-5/6 max-md:px-5 max-md:w-6/7 max-md:mb-5  py-0 flex justify-end px-10 max-sm:px-2 max-sm:py-5   max-sm:w-full ">
           <div className="relative w-3/4  max-md:w-full max-sm:w-full max-md:px-3 max-md:py-2  px-5 py-5 max-sm:px-3 bg-white max-sm:bg-gray-50 rounded-xl flex flex-col gap-5 max-sm:gap-4 h-auto">
-            <p  className="text-black max-sm:text-sm text-xl font-bold antialiased">
-              Welcome to the Disability and Motherhood. I’m Obasanjo Bolarinwa,
-              a Senior Lecturer and the Research Knowledge Transfer Co-Lead at
-              York St John University, London. I’m also the lead researcher for
-              this project, which is funded by the Union for African Population
-              Studies and supported by York St John University.
+            <p className="text-black max-sm:text-sm text-xl font-bold antialiased">
+              Welcome to the Disability and Motherhood Project website. I’m
+              Obasanjo Bolarinwa, a Senior Lecturer and the Research Knowledge
+              Transfer Co-Lead at York St John University, London. I’m also the
+              lead researcher for this project, which is funded by the Union for
+              African Population Studies and supported by York St John
+              University.
             </p>
-            <p  className="text-black max-sm:text-sm text-xl font-bold antialiased">
+            <p className="text-black max-sm:text-sm text-xl font-bold antialiased">
               I’m a public health professional focused on improving health for
               everyone, with a special interest in addressing challenges faced
               by people with disabilities. I’ve led projects that look into
@@ -55,7 +55,7 @@ const MeetPrincipal = () => {
               recognized with several awards, and I’ve shared my findings at
               international conferences.
             </p>
-            <p  className="text-black max-sm:text-sm text-xl font-bold antialiased">
+            <p className="text-black max-sm:text-sm text-xl font-bold antialiased">
               For more information about my work, click {" "}
               <a
                 className="text-blue-700"

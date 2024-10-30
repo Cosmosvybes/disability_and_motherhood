@@ -13,14 +13,14 @@ const Card_ = ({
     <>
       <div className="flex justify-between h-96 max-md:h-auto max-sm:h-auto max-sm:flex-col  max-md:flex-col ">
         <div className="relative  flex items-center justify-center  h-96 max-sm:h-auto max-md:py-2 max-md:w-full  w-1/2">
-          <div
+          {/* <div
             className="relative h-52 w-52   rounded-full  max-sm:w-44 max-md:w-44"
             style={{
               backgroundImage: `url(${image})`,
               backgroundRepeat: "no-repeat",
               backgroundSize: "contain",
             }}
-          ></div>
+          ></div> */}
         </div>
 
         <div className="relative  flex-col flex justify-center items-start px-5  max-md:px-2 w-full  h-96 max-sm:w-full max-md:w-full">
@@ -38,14 +38,14 @@ const Card_ = ({
           >
             Read more here
           </a>{" "}
-          <div className="relative w-1/3  py-2 px-1 flex justify-start items-center gap-2  mt-2 items-left">
+          {/* <div className="relative w-1/3  py-2 px-1 flex justify-start items-center gap-2  mt-2 items-left">
             <Location className="inline text-black text-3xl max-sm:text-sm  animate-ping" />{" "}
             <strong className="text-black  font-extrabold"></strong>{" "}
             <span className="text-black max-sm:text-sm text-sm font-bold">
               {" "}
               London, UK
             </span>
-          </div>
+          </div> */}
         </div>
 
         {/* <div className="relative w-full border flex h-96 max-md:w-full flex-col">
