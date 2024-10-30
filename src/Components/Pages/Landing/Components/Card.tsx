@@ -1,7 +1,4 @@
-import { Location } from "react-huge-icons/solid";
-
 const Card_ = ({
-  image,
   researchTitle = "Event and Research updates",
   content = "— coming soon",
 }: {
@@ -12,16 +9,7 @@ const Card_ = ({
   return (
     <>
       <div className="flex justify-between h-96 max-md:h-auto max-sm:h-auto max-sm:flex-col  max-md:flex-col ">
-        <div className="relative  flex items-center justify-center  h-96 max-sm:h-auto max-md:py-2 max-md:w-full  w-1/2">
-          {/* <div
-            className="relative h-52 w-52   rounded-full  max-sm:w-44 max-md:w-44"
-            style={{
-              backgroundImage: `url(${image})`,
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "contain",
-            }}
-          ></div> */}
-        </div>
+        <div className="relative  flex items-center justify-center  h-96 max-sm:h-auto max-md:py-2 max-md:w-full  w-1/2"></div>
 
         <div className="relative  flex-col flex justify-center items-start px-5  max-md:px-2 w-full  h-96 max-sm:w-full max-md:w-full">
           <h1 className="text-3xl max-sm:text-xl max-md:text-xl px-1 font-extrabold">
