@@ -24,7 +24,7 @@ const Landing = () => {
           className="fixed bottom-10 z-40 right-0 w-12 h-40 flex flex-col-reverse gap-6 rounded-tl-md rounded-bl-md justify-center items-center bg-black"
         >
           <p className="text-white -rotate-90 text-sm font-normal">SCROLL UP</p>{" "}
-          <ArrowDropUp className="inline text-red-600 -ml-3 text-2xl animate-bounce duration-50" />
+          <ArrowDropUp className="inline text-red-600 -ml-5 text-2xl animate-bounce duration-50" />
         </button>
         <div className="relative lg:px-20 max-2xl:px-10 max-2xl:object-contain max-sm:gap-0 mb-2 max-md:rounded-none   max-sm:h-96 max-md:h-1/2 max-md:px-0 max-md:flex-col-reverse max-lg:flex-col-reverse flex justify-between px-28 max-sm:px-0">
           <div
