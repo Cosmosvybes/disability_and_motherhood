@@ -37,7 +37,7 @@ const MeetPrincipal = () => {
           <div className="relative w-3/4  gap-4 max-md:w-full max-sm:w-full max-md:px-0  max-md:py-2  px-5 py-5 max-sm:px-1  bg-white rounded-xl flex flex-col  max-sm:gap-2 h-auto">
             <p className="text-black max-sm:text-sm text-xl font-bold antialiased">
               Welcome to the Disability and Motherhood Project website. I’m
-              Obasanjo Bolarinwa, a Senior Lecturer and  Research and Knowledge
+              Obasanjo Bolarinwa, a Senior Lecturer the  Research and Knowledge
               Transfer Co-Lead at York St John University, London. I’m also the
               lead researcher for this project, which is funded by the Union for
               African Population Studies and supported by York St John
