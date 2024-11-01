@@ -38,11 +38,9 @@ const Landing = () => {
           >
             <div className="relative w-full   gap-4 max-sm:gap-2 flex flex-col">
               <h1 className="text-8xl max-md:text-4xl  text-black font-extrabold max-sm:text-2xl">
-                Disability &
+                Disability & Motherhood
               </h1>
-              <h1 className="text-8xl max-md:text-4xl font-extrabold text-black max-sm:text-2xl">
-                Motherhood
-              </h1>
+
               <div className="relative">
                 <p className="text-2xl text-black max-sm:text-xl font-bold  mt-2">
                   Supporting mothers with disabilities using evidence-based
