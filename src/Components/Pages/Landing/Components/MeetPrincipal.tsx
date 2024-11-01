@@ -4,11 +4,11 @@ const MeetPrincipal = () => {
     <>
       <div
         id="Meet the Principal Investigator"
-        className="relative h-96 max-md:h-auto   max-sm:py-2 max-md:px-0  max-md:gap-2 flex gap-5 max-sm:gap-0 justify-between max-sm:flex-col px-20 max-sm:px-2"
+        className="relative h-96 max-md:h-auto lg:h-auto  max-md:flex-col  max-sm:py-2 max-md:px-0  max-md:gap-2 flex gap-5 max-sm:gap-0 justify-between max-sm:flex-col px-20 max-sm:px-2"
       >
-        <div className="relative h-96 max-md:h-44  max-sm:justify-center items-center flex max-sm:py-2 px-2">
+        <div className="relative h-auto max-md:h-auto max-md:justify-center  max-sm:justify-center items-center flex max-sm:py-2 px-2">
           <div
-            className="w-80 h-80 max-sm:w-28 max-md:w-28   max-sm:h-28  rounded-full     max-sm:object-contain"
+            className="w-80 h-80 max-sm:w-28 max-md:w-44 max-md:h-44  max-sm:h-28  rounded-full     max-sm:object-contain"
             style={{
               backgroundImage: `url(${image})`,
               backgroundRepeat: "no-repeat",
@@ -19,7 +19,7 @@ const MeetPrincipal = () => {
           </div>
         </div>
 
-        <div className="relative w-3/4 max-md:w-5/6   max-sm:w-full flex flex-col gap-2  max-sm:gap-1 justify-center items-center">
+        <div className="relative w-3/4 max-md:px-4  max-md:w-full   max-sm:w-full flex flex-col gap-2  max-sm:gap-1 justify-center items-center">
           <h1 className="text-center text-black  max-md:text-xl max-sm:text-2xl max-sm:py-2 text-xl font-extrabold">
             MEET
           </h1>
