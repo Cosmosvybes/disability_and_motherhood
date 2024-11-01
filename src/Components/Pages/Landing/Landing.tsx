@@ -17,7 +17,7 @@ const Landing = () => {
 
   return (
     <>
-      <section className="relative border  h-auto w-full max-sm:h-auto   max-sm:px-0 ">
+      <section className="relative  h-auto w-full max-sm:h-auto   max-sm:px-0 ">
         <Navbar />{" "}
         <button
           onClick={handleScrollToTop}
@@ -26,9 +26,12 @@ const Landing = () => {
           <p className="text-white -rotate-90 text-sm font-normal">SCROLL UP</p>{" "}
           <ArrowDropUp className="inline text-red-600 -ml-3 text-2xl animate-bounce duration-50" />
         </button>
-        <div className="relative  max-sm:gap-0.5 mb-2 max-md:rounded-none max-lg:h-96  h-screen max-sm:h-auto max-md:h-1/2 max-md:px-0 max-md:flex-col-reverse max-lg:flex-col-reverse flex justify-between items-center  px-28 max-sm:px-0">
+        
+        <div className="relative max-lg:px-10 lg:object-contain max-2xl:px-5  max-sm:gap-0 mb-2 max-md:rounded-none lg:h-[1280px]  h-screen max-sm:h-auto max-md:h-1/2 max-md:px-0 max-md:flex-col-reverse max-lg:flex-col-reverse flex justify-between  px-28 max-sm:px-0">
+
+
           <div
-            className="relative max-md:w-full rounded-br-none max-md:rounded-br-none rounded-tr-none flex justify-start px-5 max-sm:px-2 max-md:px-3 -z-10 max-sm:w-full max-lg:h-4/5 max-lg:w-full opacity-95  rounded-xl max-sm:rounded-none items-center h-full  w-4/5"
+            className="relative max-md:w-full h-full rounded-br-none max-md:rounded-br-none rounded-tr-none flex justify-start px-5 max-sm:px-2 max-md:px-3 -z-10 max-sm:w-full max-lg:h-96 max-lg:w-full opacity-95  rounded-xl max-sm:rounded-none items-center  w-4/5"
             style={{
               backgroundImage: `url(${image})`,
               backgroundSize: "cover",
@@ -52,7 +55,7 @@ const Landing = () => {
             </div>
           </div>
 
-          <div className="relative max-lg:h-1/2  flex rounded-bl-none rounded-tl-none max-sm:rounded-none bg-gradient-to-br from-black to-gray-800 text-white  max-md:w-full  -z-10  justify-center items-center h-full w-1/6 max-sm:h-44 max-md:h-52   max-md:rounded-none rounded-xl">
+          <div className="relative  w-full  lg:w-1/4 flex rounded-bl-none rounded-tl-none max-sm:rounded-none bg-gradient-to-br from-black to-gray-800 text-white  max-md:w-full  -z-10  justify-center items-center h-full max-sm:h-44 max-md:h-52   max-md:rounded-none rounded-xl">
             <h1 className="text-4xl animate-pulse text-white max-md:text-text-black max-sm:text-white  max-sm:text-sm font-semibold ">
               RESEARCH <GlobeSideView className="inline text-2xl text-white" />
             </h1>

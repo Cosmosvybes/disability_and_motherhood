@@ -50,7 +50,9 @@ const WelcomeSection = () => {
       <div className="relative max-sm:mt-4 bg-gray-50 max-md:bg-white  flex justify-start   py-5  items-center h-auto flex-col">
         <div className="relative w-1/2 py-2 max-sm:py-0 max-sm:w-full ">
           <h1 className="text-center text-black max-sm:text-center  max-sm:text-4xl max-md:text-3xl max-sm:py-2 text-4xl font-extrabold">
-            Get familiar with <span className="text-gray-500 animate-pulse"> #mumAbility </span> initiative.
+            Get familiar with{" "}
+            <span className="text-gray-500 animate-pulse"> #mumAbility </span>{" "}
+            initiative.
           </h1>
         </div>
         <div className="relative w-full px-20 max-sm:px-0 mt-10 max-md:px-5  max-sm:w-full">
@@ -65,7 +67,12 @@ const WelcomeSection = () => {
             ))}
           </div>
         </div>
-
+        <div className="relative flex  w-full  py-2 px-20 max-sm:px-3 max-md:px-10">
+        <h1 className="text-center max-sm:text-left  max-sm:px-1 text-black max-md:text-left  max-sm:text-2xl max-sm:py-3 max-md:py-4 text-4xl font-extrabold">
+          About the project
+        </h1>
+        </div>
+      
         <div className="relative items-center   max-sm:flex-col py-3 h-auto max-md:h-auto max-md:px-5  flex justify-between max-sm:justify-center px-20 max-sm:px-2">
           <div
             id="About the project"
@@ -78,10 +85,6 @@ const WelcomeSection = () => {
           ></div>
 
           <div className="relative w-full max-sm:py-4 max-sm:mt-4 py-5 max-sm:w-full max-sm:px-2">
-            <h1 className="text-center max-sm:text-center max-sm:px-1 text-black  max-sm:text-2xl max-sm:py-3 max-md:py-4 text-4xl font-extrabold">
-              About the project
-            </h1>
-
             <div className="relative max-sm:w-full max-md:px-0   px-5 py-5 max-sm:px-2 bg-white  rounded-xl flex flex-col gap-2 max-sm:gap-4 h-auto">
               {" "}
               <p className="text-black max-sm:text-sm text-xl font-bold antialiased">

@@ -74,7 +74,7 @@ const Footer = () => {
           ></div>
         </div>
 
-        <div className="relative max-sm:px-2 ">
+        <div className="relative max-sm:px-3 max-md:px-1 ">
           <p className=" font-extrabold max-sm:text-sm  max-md:text-xl text-white text-2xl">
             Disability and Motherhood &copy; • {new Date().getFullYear()}{" "}
           </p>

@@ -12,7 +12,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <>
-      <div className="relative flex px-28 py-10 max-sm:px-2 max-md:px-4 justify-between items-center">
+      <div className="relative flex max-lg:px-5 max-2xl:px-5 max-xl:px-10 px-28 py-10 max-sm:px-2 max-md:px-4 justify-between items-center">
         <div
           className="absolute bg-gray-50 flex justify-center items-center flex-col  transition duration-500  left-0 w-full"
           style={{
@@ -46,7 +46,7 @@ const Navbar = () => {
         ></div>
         {/* <h1 className="text-2xl font-bold text-black">Logo </h1> */}
 
-        <div className="relative max-sm:hidden max-md:hidden   justify-evenly flex gap-5">
+        <div className="relative max-sm:hidden max-md:hidden    justify-evenly flex gap-5">
           {menu.map((_, i) => (
             <Link
               duration={500}
