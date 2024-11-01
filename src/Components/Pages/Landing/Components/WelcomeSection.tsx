@@ -67,16 +67,18 @@ const WelcomeSection = () => {
             ))}
           </div>
         </div>
-        <div className="relative flex  w-full  py-2 px-20 max-sm:px-3 max-md:px-10">
-        <h1 className="text-center max-sm:text-left  max-sm:px-1 text-black max-md:text-left  max-sm:text-2xl max-sm:py-3 max-md:py-4 text-4xl font-extrabold">
-          About the project
-        </h1>
-        </div>
-      
-        <div className="relative items-center   max-sm:flex-col py-3 h-auto max-md:h-auto max-md:px-5  flex justify-between max-sm:justify-center px-20 max-sm:px-2">
-          <div
+        <div className="relative flex max-sm:justify-center  w-full  py-2 px-20 max-sm:px-3 max-md:px-10">
+          <h1
             id="About the project"
-            className="relative h-44  w-1/2 max-sm:ml-6 max-sm:object-cover max-sm:w-full   max-sm:px-2  "
+            className="text-center max-sm:text-center  max-sm:px-1 text-black max-md:text-center  max-sm:text-2xl max-sm:py-3 max-md:py-4 text-4xl font-extrabold"
+          >
+            About the project
+          </h1>
+        </div>
+
+        <div className="relative items-center max-sm:justify-center   max-sm:flex-col py-3 h-auto max-md:h-auto max-md:px-5  flex justify-between  px-20 max-sm:px-2">
+          <div
+            className="relative h-44 max-sm:w-28  w-1/2 max-sm:ml-6 max-sm:object-cover max-sm:h-28  max-sm:px-2  "
             style={{
               backgroundImage: `url(${mumLogo})`,
               backgroundRepeat: "no-repeat",
