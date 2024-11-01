@@ -29,8 +29,8 @@ const Card_ = ({
             </p>{" "}
           </div>
           <a
-            className="text-blue-500 max-sm:px-0  max-sm:text-sm text-sm font-bold"
-            href="https://journals.sagepub.com/doi/epub/10.1177/26334941241288587"
+            className="text-blue-500 max-sm:px-0 mt-2  max-sm:text-sm text-sm font-bold"
+            href={`https://journals.sagepub.com/doi/epub/10.1177/26334941241288587`}
           >
             read more here
           </a>

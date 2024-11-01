@@ -12,24 +12,35 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <>
-      <div className="relative flex lg:px-20 max-2xl:px-5 max-xl:px-10 px-28 py-10 max-sm:px-2 max-md:px-4 justify-between items-center">
+      <div className="relative flex max-lg:px-5 h-52 max-2xl:px-5 max-xl:px-10 px-28 py-10 max-sm:px-2 max-md:px-4 justify-between items-center">
         <div
-          className="absolute bg-gray-50 flex justify-center items-center flex-col  transition duration-500  left-0 w-full"
+          className={`absolute bg-gray-50  max-md:py-5 ${
+            toggle ? "h-52" : "h-0"
+          }  flex justify-center items-center flex-col  transition duration-500  left-0 bottom-0 w-full`}
           style={{
-            height: toggle ? "28rem" : "0",
-            transition: "0.5s ease-out",
+            transition: "0.7s ease-out",
           }}
         >
-          <div className=" z-10 absolute bottom-0   px-5 py-5 left-0  flex-col  justify-evenly flex gap-5">
+          <div
+            style={{
+              transition: "2s  ease-out",
+              opacity: !toggle ? 0 : 1,
+            }}
+            className=" z-10 absolute bottom-0  py-5 px-5 left-0  flex-col  justify-evenly flex  gap-4"
+          >
             {menu.map((_, i) => (
               <Link
                 onClick={() => setToggle(!toggle)}
-                duration={500}
+                duration={400}
                 smooth
-                style={{ visibility: !toggle ? "hidden" : "visible" }}
+                style={{
+                  visibility: !toggle ? "hidden" : "visible",
+                  transition: "0.9s ease-in",
+                  opacity: !toggle ? 0 : 1,
+                }}
                 to={_.title}
                 key={i}
-                className="text-black hover:bg-gray-400 transition duration-500 font-bold max-sm:flex max-md:flex  text-sm cursor-pointer"
+                className="text-black py-1 hover:bg-gray-400 transition duration-500 font-bold max-sm:flex max-md:flex  text-sm cursor-pointer"
               >
                 {_.title}
               </Link>
