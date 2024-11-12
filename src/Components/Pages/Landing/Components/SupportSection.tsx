@@ -32,7 +32,7 @@ const SupportSection = () => {
   return (
     <>
       <div
-        className="relative px-20 max-md:px-2 max-md:py-2  py-5 max-sm:px-4 bg-gray-50 max-sm:py-2 h-auto"
+        className="relative px-20 max-md:px-2 max-md:py-2  mt-10 py-5 max-sm:px-4 bg-gray-50 max-sm:py-2 h-auto"
         id="Field and Research Updates"
       >
         <div className="relative max-md:px-2 flex justify-between items-center">

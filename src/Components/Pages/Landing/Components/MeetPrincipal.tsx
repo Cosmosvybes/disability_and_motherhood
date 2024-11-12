@@ -4,7 +4,7 @@ const MeetPrincipal = () => {
     <>
       <div
         id="Meet the Principal Investigator"
-        className="relative h-96 max-md:h-auto lg:h-auto  max-md:flex-col  max-sm:py-2 max-md:px-0  max-md:gap-2 flex gap-5 max-sm:gap-0 justify-between max-sm:flex-col px-20 max-sm:px-2"
+        className="relative  max-md:h-auto h-screen lg:h-auto  max-md:flex-col  max-sm:py-2 max-md:px-0  max-md:gap-2 flex gap-5 max-sm:gap-0 justify-between max-sm:flex-col px-20 max-sm:px-2"
       >
         <div className="relative h-auto max-md:h-auto max-md:justify-center  max-sm:justify-center items-center flex max-sm:py-2 px-2">
           <div

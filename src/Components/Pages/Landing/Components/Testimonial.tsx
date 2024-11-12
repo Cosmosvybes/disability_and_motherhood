@@ -11,7 +11,7 @@ const Testimonial = ({
 }) => {
   return (
     <>
-      <div className="relative h-96 px-2 py-2  max-md:w-full flex-col flex transition duration-500 bg-white  max-sm:gap-2 gap-3 rounded-xl justify-start items-start   max-sm:h-auto w-96 max-sm:w-full max-md:h-96">
+      <div className="relative h-96 px-2 py-2   max-md:w-full flex-col flex transition duration-500 bg-white  max-sm:gap-2 gap-3 rounded-xl justify-start items-start   max-sm:h-auto w-96 max-sm:w-full max-md:h-96">
         <FormatQuote className="absolute right-0 top-5 text-5xl   opacity-10" />
         <FormatQuote className="absolute left-0 bottom-0 text-5xl   opacity-10" />
 

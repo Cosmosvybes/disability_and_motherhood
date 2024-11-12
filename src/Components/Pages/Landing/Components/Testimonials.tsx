@@ -63,7 +63,7 @@ const Testimonials = () => {
   ]);
   return (
     <>
-      <div className="relative bg-gray-50 h-auto py-5  max-sm:py-5 ">
+      <div className="relative bg-gray-50 h-screen max-sm:h-auto py-5 mt-10  max-sm:py-5 ">
         <h1 className="text-left max-md:text-center px-20 text-5xl max-sm:text-2xl max-md:px-2 max-sm:px-2 font-bold">
           Team & Contributors
         </h1>
