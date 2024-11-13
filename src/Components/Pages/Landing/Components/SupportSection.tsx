@@ -5,30 +5,22 @@ import "swiper/css/pagination";
 import { Pagination, Parallax } from "swiper/modules";
 import { ArrowRight } from "react-huge-icons/solid";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Card_ from "./Card";
-import researchImage from "../../../../assets/research.jpg";
+
 const SupportSection = () => {
-  const [research] = useState([
-    {
-      id: 1,
-      image: researchImage,
-      researchTitle:
-        "The role of artificial intelligence in transforming maternity services in Africa: prospects and challenges",
-      content:
-        "Maternal and neonatal health outcomes in Africa remain a significant public health challenge. Despite ongoing efforts to enhance maternity services, many women across the continent do not receive the necessary antenatal care (ANC), and a substantial number of births.",
-    },
-    {
-      id: 2,
-      researchTitle: "Event and Research updates",
-      content: "— coming soon",
-    },
-    {
-      id: 2,
-      researchTitle: "Event and Research updates",
-      content: "— coming soon",
-    },
-  ]);
+  useEffect(() => {
+    const getPosts = async () => {
+      const data = await fetch(
+        "https://disability-and-motherhood-server.onrender.com/api/field-research-updates"
+      );
+      const result = await data.json();
+      setResearch(result.response);
+    };
+    getPosts();
+  }, []);
+
+  const [research, setResearch] = useState<any>([]);
   return (
     <>
       <div
@@ -56,12 +48,13 @@ const SupportSection = () => {
           modules={[Pagination, Parallax]}
           className="mySwiper h-auto "
         >
-          {research.map((_, i) => (
+          {research.map((_: any, i: any) => (
             <SwiperSlide key={i} className="py-6 max-md:py-0 max-sm:py-2">
               <Card_
-                image={_.image}
-                researchTitle={_.researchTitle}
-                content={_.content}
+                hyperLink={_.hyperLink}
+                imageUrl={_.imageUrl}
+                title={_.title}
+                description={_.description}
               />
             </SwiperSlide>
           ))}
