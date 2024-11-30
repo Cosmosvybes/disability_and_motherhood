@@ -1,4 +1,5 @@
 import { FormatQuote, Reward } from "react-huge-icons/solid";
+import { Card } from "reactstrap";
 
 const Testimonial = ({
   image,
@@ -11,7 +12,7 @@ const Testimonial = ({
 }) => {
   return (
     <>
-      <div className="relative h-96 px-2 py-2   max-md:w-full flex-col flex transition duration-500 bg-white  max-sm:gap-2 gap-3 rounded-xl justify-start items-start   max-sm:h-auto w-96 max-sm:w-full max-md:h-96">
+      <Card className="relative h-96 px-2 py-2   max-md:w-full flex-col flex transition duration-500 bg-gray-100 max-sm:gap-2 gap-3 rounded-xl justify-evenly items-start   max-sm:h-auto w-96 max-sm:w-full max-md:h-96">
         <FormatQuote className="absolute right-0 top-5 text-5xl   opacity-10" />
         <FormatQuote className="absolute left-0 bottom-0 text-5xl   opacity-10" />
 
@@ -26,8 +27,8 @@ const Testimonial = ({
           ></div>
         </div>
 
-        <div className="relative w-full  h-auto px-2 py-2">
-          <p className="text-black max-sm:text-sm text-xl font-bold antialiased">
+        <div className="relative w-full   h-auto px-2 py-2">
+          <p className="text-gray-500 max-sm:text-sm text-sm font-bold antialiased">
             {statement}{" "}
           </p>
         </div>
@@ -37,7 +38,7 @@ const Testimonial = ({
             {role} <Reward className="inline text-2xl text-black" />{" "}
           </p>
         </div>
-      </div>
+      </Card>
     </>
   );
 };

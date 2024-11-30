@@ -13,7 +13,7 @@ const Funders = () => {
           <ArrowRight className="text-5xl max-sm:text-3xl text-black inline" />
         </h1>
         <div className="relative flex flex-col justify-start w-1/2 max-sm:w-full py-2">
-          <p  className="text-black max-sm:text-sm text-xl font-bold antialiased">
+          <p  className="text-black max-sm:text-sm text-sm font-bold antialiased">
             To support this project please reach out to the principal
             investigator
             <span className="text-blue-700 ">
@@ -44,7 +44,7 @@ const Funders = () => {
         </div>
 
         <div className="relative flex flex-col justify-start max-md:w-5/6 w-1/2 max-sm:w-full py-2">
-          <p  className="text-black max-sm:text-sm text-xl font-bold antialiased">
+          <p  className="text-black max-sm:text-sm text-sm font-bold antialiased">
             The funders of this project are the{" "}
             <span className="text-blue-700 ">
               {" "}

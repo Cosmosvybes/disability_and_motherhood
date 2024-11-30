@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-// import image from "../../../../assets/Mother.webp";
 import { Pagination, Parallax } from "swiper/modules";
 import { ArrowRight } from "react-huge-icons/solid";
 

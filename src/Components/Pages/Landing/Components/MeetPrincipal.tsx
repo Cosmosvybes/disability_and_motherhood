@@ -25,7 +25,7 @@ const MeetPrincipal = () => {
           </h1>
           <div className="relative h-auto">
             <div className="relative max-md:w-full max-sm:w-full max-md:px-0  max-md:py-2  px-5 py-5 max-sm:px-1  bg-white rounded-xl flex flex-col  max-sm:gap-2 h-auto">
-              <p className="text-black max-sm:text-sm text-xl font-bold antialiased">
+              <p className="text-black max-sm:text-sm text-sm  font-bold antialiased">
                 Welcome to the Disability and Motherhood Project website. I’m
                 Obasanjo Bolarinwa, a Senior Lecturer and the Research &
                 Knowledge Transfer Co-Lead at York St John University, London.
@@ -33,7 +33,7 @@ const MeetPrincipal = () => {
                 by the Union for African Population Studies and supported by
                 York St John University.
               </p>
-              <p className="text-black max-sm:text-sm text-xl font-bold antialiased">
+              <p className="text-black max-sm:text-sm text-sm  font-bold antialiased">
                 I’m a public health professional focused on improving health for
                 everyone, with a special interest in addressing challenges faced
                 by people with disabilities. I’ve led projects that look into
@@ -42,7 +42,7 @@ const MeetPrincipal = () => {
                 recognized with several awards, and I’ve shared my findings at
                 international conferences.
               </p>
-              <p className="text-black max-sm:text-sm text-xl font-bold antialiased">
+              <p className="text-black max-sm:text-sm text-sm  font-bold antialiased">
                 For more information about my work, click {" "}
                 <a
                   className="text-blue-700"
