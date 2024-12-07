@@ -8,7 +8,7 @@ const MeetPrincipal = () => {
       >
         <div className="relative h-auto max-md:h-auto max-md:justify-center  max-sm:justify-center items-center flex max-sm:py-2 px-2">
           <div
-            className="w-80 h-80 max-sm:w-28 max-md:w-44 max-md:h-44  max-sm:h-28  rounded-full     max-sm:object-contain"
+            className="w-80 principal-image h-80 max-sm:w-28 max-md:w-44 max-md:h-44  max-sm:h-28  rounded-full     max-sm:object-contain"
             style={{
               backgroundImage: `url(${image})`,
               backgroundRepeat: "no-repeat",

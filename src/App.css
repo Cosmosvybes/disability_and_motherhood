@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=SUSE&display=swap");
 body,
 h1,
 p {
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   font-variation-settings: "wdth" 100, "YTLC" 500;
 }
@@ -15,6 +15,85 @@ html {
   margin: 0;
   padding: 0;
 }
+
+@keyframes _main-h1-anime {
+  from {
+    transform: translateY(-500px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.main-h1 {
+  animation-name: _main-h1-anime;
+  animation-duration: 2s;
+  animation-delay: 0.1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+}
+
+@keyframes _logo-anime {
+  from {
+    transform: rotateX(0);
+    opacity: 0;
+    scale: 0;
+  }
+  to {
+    scale: 1;
+    opacity: 1;
+    transform: rotateX(360deg);
+  }
+}
+
+.logo {
+  animation-name: _logo-anime;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes _para-anime {
+  0% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scaleY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+.mission-para {
+  animation-name: _logo-anime;
+  animation-duration: 5s;
+  animation-direction: normal;
+  animation-delay: 0s;
+}
+
+@keyframes principal_image-anime {
+  from {
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+  to {
+    transition: all;
+    opacity: 1;
+    transform: rotate(0);
+  }
+}
+.principal-image {
+  animation-name: principal_image-anime;
+  animation-duration: 5s;
+  animation-direction:alternate-reverse;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
