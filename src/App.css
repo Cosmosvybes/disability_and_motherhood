@@ -91,7 +91,7 @@ html {
   animation-duration: 5s;
   animation-direction:alternate-reverse;
   animation-delay: 0s;
-  animation-iteration-count: infinite;
+  /* animation-iteration-count: infinite; */
 }
 
 @tailwind base;
